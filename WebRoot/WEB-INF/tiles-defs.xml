@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+"http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+
+<tiles-definitions>
+	<definition name="homepage" template="/Home.jsp">
+		<put name="header" value="/Header.jsp"></put>
+		<put name="footer" value="/Footer.jsp"></put>
+		<put name="right" value="/RightPage.jsp"></put>
+		<put name="left" value="/LeftPage.jsp"></put>
+		<put name="menu" value="/MenuPage.jsp"></put>
+		<put name="body" value="/LoginForm.jsp"></put>
+	</definition>
+	<definition name="adminhomepage" extends="homepage">
+		<put name="body" value="/AdminHome.jsp"></put>
+	</definition>
+	<definition name="branchpage" extends="homepage">
+		<put name="body" value="/AddBranchForm.jsp"></put>
+	</definition>
+	<definition name="changepasswordhome" extends="homepage">
+		<put name="body" value="/ChangePassword.jsp"></put>
+	</definition>
+	<definition name="statuspage" extends="homepage">
+		<put name="body" value="/Status.jsp"></put>
+	</definition>
+	<definition name="newspage" extends="homepage">
+		<put name="body" value="/AddNews.jsp"></put>
+	</definition>
+	<definition name="errorhome" extends="homepage">
+		<put name="body" value="/Error.jsp"></put>
+	</definition>
+
+
+	<definition name="mailspage" extends="homepage">
+		<put name="body" value="/MailForm.jsp"></put>
+	</definition>
+	<definition name="welcomehome" extends="homepage">
+		<put name="body" value="/WelComePage.jsp"></put>
+	</definition>
+
+	<definition name="participantstudentpage" extends="homepage">
+		<put name="body" value="/ParticipantStudentDetailsForm.jsp"></put>
+	</definition>
+
+	<!-- Branches -->
+	<definition name="viewBrancheshome" extends="homepage">
+		<put name="body" value="/ViewBranches.jsp"></put>
+	</definition>
+	<definition name="viewBranchByidhome" extends="homepage">
+		<put name="body" value="/ViewBranchByid.jsp"></put>
+	</definition>
+	<definition name="updateBranchbyidhome" extends="homepage">
+		<put name="body" value="/updateBranchbyidAction.do"></put>
+	</definition>
+
+	<!-- News -->
+	<definition name="viewnewshome" extends="homepage">
+		<put name="body" value="/ViewNews.jsp"></put>
+	</definition>
+	<definition name="viewnewsbyidhome" extends="homepage">
+		<put name="body" value="/viewnewsbyidaction.do"></put>
+	</definition>
+	<definition name="updatenewsbyidhome" extends="homepage">
+		<put name="body" value="/updatenewsbyidaction.do"></put>
+	</definition>
+
+	<!-- FAQS -->
+	<definition name="faqpage" extends="homepage">
+		<put name="body" value="/FaqsForm.jsp"></put>
+	</definition>
+
+	<definition name="viewfaqhome" extends="homepage">
+		<put name="body" value="/ViewFaq.jsp"></put>
+	</definition>
+	<definition name="viewfaqbyidhome" extends="homepage">
+		<put name="body" value="/viewnewsbyidaction.do"></put>
+	</definition>
+	<definition name="updatefaqbyidhome" extends="homepage">
+		<put name="body" value="/updatenewsbyidaction.do"></put>
+	</definition>
+
+	<!--GALLERY  -->
+
+
+	<definition name="gallerypage" extends="homepage">
+		<put name="body" value="/GaleryForm.jsp"></put>
+	</definition>
+	<definition name="viewgalleryhome" extends="homepage">
+		<put name="body" value="/viewgalleryaction.do"></put>
+	</definition>
+	<definition name="viewgallerybyidhome" extends="homepage">
+		<put name="body" value="/viewgallerybyidaction.do"></put>
+	</definition>
+	<definition name="updategallerybyidhome" extends="homepage">
+		<put name="body" value="/updategallerybyidaction.do"></put>
+	</definition>
+	<definition name="galerysuccesshome" extends="homepage">
+		<put name="body" value="/GaleryForm.jsp"></put>
+	</definition>
+
+
+	<!--EVENT -->
+	<definition name="eventpage" extends="homepage">
+		<put name="body" value="/AddEvents.jsp"></put>
+	</definition>
+	<definition name="eventhome" extends="homepage">
+		<put name="body" value="/AddEvents.jsp"></put>
+	</definition>
+	<definition name="vieweventhome" extends="homepage">
+		<put name="body" value="/vieweventaction.do"></put>
+	</definition>
+	<definition name="vieweventdetailshome" extends="homepage">
+		<put name="body" value="/ViewEvents.jsp"></put>
+	</definition>
+	<definition name="vieweventbyidactiondesthome" extends="homepage">
+		<put name="body" value="/ViewEventByid.jsp"></put>
+	</definition>
+
+
+	<definition name="viewbrancheventhome" extends="homepage">
+		<put name="body" value="/viewbrancheventaction.do"></put>
+	</definition>
+	<definition name="vieweventbyidhome" extends="homepage">
+		<put name="body" value="/vieweventbyidaction.do"></put>
+	</definition>
+	<definition name="updateeventbyidhome" extends="homepage">
+		<put name="body" value="/updateeventbyidaction.do"></put>
+	</definition>
+
+	<definition name="vieweventelestuhome" extends="homepage">
+		<put name="body" value="/ViewEventElectedStudentDetails.jsp"></put>
+	</definition>
+
+
+
+
+
+	<!-- ORG STU -->
+	<definition name="orgstuhome" extends="homepage">
+		<put name="body" value="/OrganisedStudentDetailsForm.jsp"></put>
+	</definition>
+	<definition name="viewstuhome" extends="homepage">
+		<put name="body" value="/ViewStudentDetails.jsp"></put>
+	</definition>
+	<definition name="vieweventselstuhome" extends="homepage">
+		<put name="body" value="/ViewEventSelectedStudentDetails.jsp"></put>
+	</definition>
+	<definition name="viewbranchpageforevents" extends="homepage">
+		<put name="body" value="/ViewEvents.jsp"></put>
+	</definition>
+
+
+
+	<!-- PAR STU -->
+	<definition name="parstuhome" extends="homepage">
+		<put name="body" value="/ParticipantStudentDetailsForm.jsp"></put>
+	</definition>
+	<definition name="viewparstuhome" extends="homepage">
+		<put name="body" value="/ViewParticipateStudentDetails.jsp"></put>
+	</definition>
+
+
+	<definition name="discussionformhome" extends="homepage">
+		<put name="body" value="/DiscussionForumForm.jsp"></put>
+	</definition>
+
+
+	<definition name="sendmessageshome" extends="homepage">
+		<put name="body" value="/MailForm.jsp"></put>
+	</definition>
+
+
+
+	<definition name="viewmessageshome" extends="homepage">
+		<put name="body" value="/ViewUserMails.jsp"></put>
+	</definition>
+
+
+	<definition name="eventhomepage" extends="homepage">
+		<put name="body" value="/SelectDateForEvents.jsp"></put>
+	</definition>
+
+
+	<definition name="eventsbydatehome" extends="homepage">
+		<put name="body" value="/ViewEvents.jsp"></put>
+	</definition>
+
+
+	<!-- CoachingCenters -->
+
+	<definition name="coachingpage" extends="homepage">
+		<put name="body" value="/CoachingCenterForm.jsp"></put>
+	</definition>
+	<definition name="viewcoachinghome" extends="homepage">
+		<put name="body" value="/viewcoachingcenteraction.do"></put>
+	</definition>
+	<definition name="viewcoachingByidhome" extends="homepage">
+		<put name="body" value="/viewcoachingbyidaction.do"></put>
+	</definition>
+	<definition name="updatecoachingbyidhome" extends="homepage">
+		<put name="body" value="/updatecoachingcenterbyidaction.do"></put>
+	</definition>
+
+	<definition name="viewcoachingcenterhome" extends="homepage">
+		<put name="body" value="/ViewCoachingCenter.jsp"></put>
+	</definition>
+
+	<!-- Study Details -->
+
+	<definition name="studypage" extends="homepage">
+		<put name="body" value="/StudyDetailsForm.jsp"></put>
+	</definition>
+	<definition name="viewstudyhome" extends="homepage">
+		<put name="body" value="/viewstudycenteraction.do"></put>
+	</definition>
+	<definition name="viewstudyByidhome" extends="homepage">
+		<put name="body" value="/viewstudybyidaction.do"></put>
+	</definition>
+	<definition name="updatestudybyidhome" extends="homepage">
+		<put name="body" value="/updatestudybyidaction.do"></put>
+	</definition>
+	<definition name="ViewStudyDetailsByidhome" extends="homepage">
+		<put name="body" value="/ViewStudyDetailsByid.jsp"></put>
+	</definition>
+
+
+	<!-- Topic Header -->
+
+	<definition name="topicheadaddhome" extends="homepage">
+		<put name="body" value="/TopicHeaderAdd.jsp"></put>
+	</definition>
+
+	<definition name="viewtopicheaderhome" extends="homepage">
+		<put name="body" value="/ViewTopicHeader.jsp"></put>
+	</definition>
+	<definition name="viewtopicheaderByidhome" extends="homepage">
+		<put name="body" value="/viewtopicheaderbyidaction.do"></put>
+	</definition>
+	<definition name="updatetopicheaderbyidhome" extends="homepage">
+		<put name="body" value="/updatetopicheaderbyidaction.do"></put>
+	</definition>
+
+	<!-- Topic Name -->
+
+
+
+	<definition name="addtopicnameviewtopicheaderlisthome"
+		extends="homepage">
+		<put name="body" value="/TopicNameAdd.jsp"></put>
+	</definition>
+	<definition name="viewtopicnamedetailshome" extends="homepage">
+		<put name="body" value="/ViewTopicNameDetails.jsp"></put>
+	</definition>
+
+
+	<definition name="topicnamepage" extends="homepage">
+		<put name="body" value="/TopicNameAdd.jsp"></put>
+	</definition>
+	<definition name="viewtopicnamehome" extends="homepage">
+		<put name="body" value="/viewtopicnameaction.do"></put>
+	</definition>
+	<definition name="viewtopicnameByidhome" extends="homepage">
+		<put name="body" value="/viewtopicnamebyidaction.do"></put>
+	</definition>
+	<definition name="updatetopicnamebyidhome" extends="homepage">
+		<put name="body" value="/updatetopicnamebyidaction.do"></put>
+	</definition>
+
+
+	<!-- Topic file -->
+
+
+	<definition name="addtopicfileviewtopicnamelisthome"
+		extends="homepage">
+		<put name="body" value="/AddTopicFile.jsp"></put>
+	</definition>
+	<definition name="viewtopicfileactionhome" extends="homepage">
+		<put name="body" value="/ViewTopicFileDetails.jsp"></put>
+	</definition>
+	<definition name="viewtopicfileByidhome" extends="homepage">
+		<put name="body" value="/viewtopicfilebyidaction.do"></put>
+	</definition>
+	<definition name="updatetopicfilebyidhome" extends="homepage">
+		<put name="body" value="/updatetopicfilebyidaction.do"></put>
+	</definition>
+
+
+	<!-- Placement Information -->
+
+	<definition name="placementspage" extends="homepage">
+		<put name="body" value="/PlacementInformationForm.jsp"></put>
+	</definition>
+	<definition name="viewplacementsdetailshome" extends="homepage">
+		<put name="body" value="/ViewPlacementsDetails.jsp"></put>
+	</definition>
+
+	<definition name="viewplacementshome" extends="homepage">
+		<put name="body" value="/viewplacementsaction.do"></put>
+	</definition>
+	<definition name="viewplacementsByidhome" extends="homepage">
+		<put name="body" value="/viewplacementsbyidaction.do"></put>
+	</definition>
+	<definition name="updateplacementsbyidhome" extends="homepage">
+		<put name="body" value="/updateplacementsbyidaction.do"></put>
+	</definition>
+	<definition name="viewplacementdetailsbyidhome" extends="homepage">
+		<put name="body" value="/ViewPlacementDetailsByid.jsp"></put>
+	</definition>
+
+	<definition name="viewbixdataactionhome" extends="homepage">
+		<put name="body" value="/ViewBixData.jsp"></put>
+	</definition>
+
+</tiles-definitions>

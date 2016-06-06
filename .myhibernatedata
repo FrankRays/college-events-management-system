@@ -1,0 +1,24 @@
+#MyEclipse Hibernate Properties
+#Fri Jul 19 10:13:27 GMT+05:30 2013
+sessionFactoryName=com.buzz.dbfactory.HibernateSessionFactory
+genBasicCompId=true
+profile=
+daoSFId=
+version=3.1
+jndiPath=
+detectM2M=true
+reStrategyClass=
+detectO2O=false
+springDaoFile=
+useJavaTypes=true
+keyGenerator=increment
+libInstallFolder=<no jars/zips in selected libraries>
+addLibs2Project=true
+genVersionTag=true
+sessionFactoryId=
+basePersistenceClass=
+genAnnotations=false
+reSettingsFile=/IPCB/hibernate.reveng.xml
+configFile=/IPCB/src/hibernate.cfg.xml
+createConfigFile=false
+addLibs2Classpath=true

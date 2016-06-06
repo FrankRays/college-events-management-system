@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE form-validation PUBLIC
+     "-//Apache Software Foundation//DTD Commons Validator Rules Configuration 1.1.3//EN"
+     "http://jakarta.apache.org/commons/dtds/validator_1_1_3.dtd">
+<form-validation>
+	<global>
+		<!--	an example for global constant-->
+		<constant>
+			<constant-name>global-postalCode</constant-name>
+			<constant-value>^\d{5}\d*$</constant-value>
+		</constant>
+	</global>
+	<!--	default local specific formset-->
+	<formset>
+		<constant>
+			<constant-name>local-postalCode</constant-name>
+			<constant-value>^[0-9a-zA-Z]*$</constant-value>
+		</constant>
+
+		<form name="LogindetailsFormbean">
+
+			<field property="loginid" depends="required">
+				<msg name="required" key="loginid.required" />
+			</field>
+			<field property="password" depends="required">
+				<msg name="required" key="password.required" />
+			</field>
+		</form>
+
+		<form name="BranchFormBean">
+			<field property="branchName" depends="required">
+				<msg name="required" key="branchName.required" />
+			</field>
+			<field property="branchDesc" depends="required">
+				<msg name="required" key="branchDesc.required" />
+			</field>
+		</form>
+
+
+		<form name="EventFormBean">
+			<field property="eventName" depends="required">
+				<msg name="required" key="eventName.required" />
+			</field>
+			<field property="eventDesc" depends="required">
+				<msg name="required" key="eventDesc.required" />
+			</field>
+			<field property="eventOnCollege" depends="required">
+				<msg name="required" key="eventOnCollege.required" />
+			</field>
+			<field property="eventOnAddresses" depends="required">
+				<msg name="required" key="eventOnAddresses.required" />
+			</field>
+			<field property="eventDate" depends="required">
+				<msg name="required" key="eventDate.required" />
+			</field>
+			<field property="eventTime" depends="required">
+				<msg name="required" key="eventTime.required" />
+			</field>
+			<field property="uRL" depends="required">
+				<msg name="required" key="uRL.required" />
+			</field>
+		</form>
+
+
+
+
+		<form name="NewsFeedFormBean">
+
+			<field property="newsHeader" depends="required">
+				<msg name="required" key="newsHeader.required" />
+			</field>
+			<field property="newsDesc" depends="required">
+				<msg name="required" key="newsDesc.required" />
+			</field>
+
+		</form>
+
+		<form name="FaqsFormBean">
+
+			<field property="faq" depends="required">
+				<msg name="required" key="faq.required" />
+			</field>
+			<field property="answer" depends="required">
+				<msg name="required" key="answer.required" />
+			</field>
+			<field property="eventidref" depends="required">
+				<msg name="required" key="eventidref.required" />
+			</field>
+
+		</form>
+
+
+		<form name="DiscussionForumFormBean">
+			<field property="discussionDesc" depends="required">
+				<msg name="required" key="discussionDesc.required" />
+			</field>
+		</form>
+
+		<form name="DiscussionForumFormBean">
+			<field property="discussionDesc" depends="required">
+				<msg name="required" key="discussionDesc.required" />
+			</field>
+		</form>
+		<form name="FileUploadForm">
+			<field property="uploadingfile" depends="required">
+				<msg name="required" key="uploadingfile.required" />
+			</field>
+		</form>
+
+
+
+		<form name="DiscussionForumFormBean">
+			<field property="discussionDesc" depends="required">
+				<msg name="required" key="discussionDesc.required" />
+			</field>
+		</form>
+		<form name="MailFormBean">
+			<field property="tomailId" depends="required">
+				<msg name="required" key="tomailId.required" />
+			</field>
+			<field property="messageHeader" depends="required">
+				<msg name="required" key="messageHeader.required" />
+			</field>
+			<field property="messagebody" depends="required">
+				<msg name="required" key="messagebody.required" />
+			</field>
+		</form>
+
+
+
+		<form name="OrganisedStudentDetailsFormBean">
+			<field property="studentOrgEventidref" depends="required">
+				<msg name="required" key="studentOrgEventidref.required" />
+			</field>
+			<field property="studentBranchidref" depends="required">
+				<msg name="required" key="studentBranchidref.required" />
+			</field>
+			<field property="branchyear" depends="required">
+				<msg name="required" key="branchyear.required" />
+			</field>
+			<field property="studentName" depends="required">
+				<msg name="required" key="studentName.required" />
+			</field>
+		</form>
+
+
+
+		<form name="ParticipantStudentDetailsFormBean">
+			<field property="studentBranchidref" depends="required">
+				<msg name="required" key="studentBranchidref.required" />
+			</field>
+			<field property="studentName" depends="required">
+				<msg name="required" key="studentName.required" />
+			</field>
+			<field property="branchyear" depends="required">
+				<msg name="required" key="branchyear.required" />
+			</field>
+			<field property="studentCollege" depends="required">
+				<msg name="required" key="studentCollege.required" />
+			</field>
+			<field property="collegeaddress" depends="required">
+				<msg name="required" key="collegeaddress.required" />
+			</field>
+		</form>
+
+
+
+		<form name="ParticipationStudentEventRegFormBean">
+			<field property="studentOrgEventidref" depends="required">
+				<msg name="required" key="studentOrgEventidref.required" />
+			</field>
+			<field property="studentBranchidref" depends="required">
+				<msg name="required" key="studentBranchidref.required" />
+			</field>
+			<field property="studentName" depends="required">
+				<msg name="required" key="studentName.required" />
+			</field>
+			<field property="studentStudyingYear" depends="required">
+				<msg name="required" key="studentStudyingYear.required" />
+			</field>
+		</form>
+
+
+
+		<form name="DiscussionForumFormBean">
+			<field property="discussionDesc" depends="required">
+				<msg name="required" key="discussionDesc.required" />
+			</field>
+		</form>
+
+
+
+		<form name="CoachingCenterFormBean">
+			<field property="coachingcentername" depends="required">
+				<msg name="required" key="coachingcentername.required" />
+			</field>
+			<field property="coachingcentername" depends="required">
+				<msg name="required" key="coachingcentername.required" />
+			</field>
+			<field property="coachingAddress" depends="required">
+				<msg name="required" key="coachingAddress.required" />
+			</field>
+			<field property="coachingContact" depends="required">
+				<msg name="required" key="coachingContact.required" />
+			</field>
+			<field property="coachingDesc" depends="required">
+				<msg name="required" key="coachingDesc.required" />
+			</field>
+		</form>
+
+
+
+		<form name="PlacementInformationFormBean">
+			<field property="placementCompanyName" depends="required">
+				<msg name="required" key="PlacementCompanyName.required" />
+			</field>
+			<field property="placementDescription" depends="required">
+				<msg name="required" key="PlacementDescription.required" />
+			</field>
+			<field property="placementDate" depends="required">
+				<msg name="required" key="PlacementDate.required" />
+			</field>
+			<field property="placementUrl" depends="required">
+				<msg name="required" key="PlacementUrl.required" />
+			</field>
+		</form>
+
+
+		<form name="StudyDetailsFormBean">
+			<field property="studyName" depends="required">
+				<msg name="required" key="studyName.required" />
+			</field>
+			<field property="studyDesc" depends="required">
+				<msg name="required" key="studyDesc.required" />
+			</field>
+		</form>
+
+		<form name="TopicFileFormBean">
+		<field property="topicfilename" depends="required">
+				<msg name="required" key="topicfilename.required" />
+			</field>
+			<field property="FileData" depends="required">
+				<msg name="required" key="FileData.required" />
+			</field>
+		</form>
+		<form name="TopicHeaderFormBean">
+			<field property="topicName" depends="required">
+				<msg name="required" key="TopicName.required" />
+			</field>
+			<field property="topicImage" depends="required">
+				<msg name="required" key="TopicImage.required" />
+			</field>
+		</form>
+		<form name="TopicNameFormBean">
+			<field property="topicName" depends="required">
+				<msg name="required" key="TopicName.required" />
+			</field>
+			<field property="topicHeaderId" depends="required">
+				<msg name="required" key="TopicName.required" />
+			</field>
+
+		</form>
+
+		<form name="TopicFileFormBean">
+			<field property="fileData" depends="required">
+				<msg name="required" key="FileData.required" />
+			</field>
+		</form>
+		<form name="TopicHeaderFormBean">
+			<field property="topicName" depends="required">
+				<msg name="required" key="TopicName.required" />
+			</field>
+			<!--
+				<field property="TopicImage" depends="required"> <msg
+				name="required" key="TopicImage.required" /> </field>
+			-->
+		</form>
+		<form name="TopicNameFormBean">
+			<field property="topicName" depends="required">
+				<msg name="required" key="TopicName.required" />
+			</field>
+
+		</form>
+
+
+	</formset>
+</form-validation>

@@ -1,0 +1,2723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/home.do" location="50,1250" dimension="69,62" />
+  <StrutsActivity path="/news.do" location="1250,1250" dimension="68,62" />
+  <StrutsActivity path="/eventdate.do" location="1550,50" dimension="93,62" />
+  <StrutsActivity path="/status.do" location="1850,50" dimension="73,62" />
+  <StrutsActivity path="/mails.do" location="2150,50" dimension="66,62" />
+  <StrutsActivity path="/participantstudent.do" location="2450,50" dimension="131,62" />
+  <StrutsActivity path="/branch.do" location="350,1250" dimension="76,62" />
+  <StrutsActivity path="/viewbranch.do" location="3050,50" dimension="98,62" />
+  <StrutsActivity path="/viewBranchByid.do" location="3350,50" dimension="118,62" />
+  <StrutsActivity path="/updateBranchbyid.do" location="2750,150" dimension="130,62" />
+  <StrutsActivity path="/addBranchAction.do" location="1550,250" dimension="237,88" />
+  <StrutsActivity path="/viewBranchesAction.do" location="1850,250" dimension="251,88" />
+  <StrutsActivity path="/viewBranchByidAction.do" location="3050,250" dimension="260,88" />
+  <StrutsActivity path="/updateBranchbyidAction.do" location="2450,350" dimension="253,88" />
+  <StrutsActivity path="/deleteBranchesAction.do" location="1550,450" dimension="260,88" />
+  <StrutsActivity path="/viewnews.do" location="2150,450" dimension="90,62" />
+  <StrutsActivity path="/viewnewsbyid.do" location="3050,450" dimension="110,62" />
+  <StrutsActivity path="/updatenewsbyid.do" location="3350,450" dimension="122,62" />
+  <StrutsActivity path="/addnewsaction.do" location="2450,550" dimension="230,88" />
+  <StrutsActivity path="/viewnewsaction.do" location="2750,550" dimension="233,88" />
+  <StrutsActivity path="/viewnewsbyidaction.do" location="1550,650" dimension="253,88" />
+  <StrutsActivity path="/updatenewsbyidaction.do" location="2150,650" dimension="246,88" />
+  <StrutsActivity path="/deletenewsaction.do" location="3050,650" dimension="242,88" />
+  <StrutsActivity path="/faq.do" location="3350,650" dimension="59,62" />
+  <StrutsActivity path="/viewfaq.do" location="2450,750" dimension="81,62" />
+  <StrutsActivity path="/viewfaqbyid.do" location="2750,750" dimension="101,62" />
+  <StrutsActivity path="/updatefaqbyid.do" location="1550,850" dimension="113,62" />
+  <StrutsActivity path="/addfaqaction.do" location="1850,850" dimension="222,88" />
+  <StrutsActivity path="/viewfaqsaction.do" location="2150,850" dimension="230,88" />
+  <StrutsActivity path="/viewfaqbyidaction.do" location="3050,850" dimension="245,88" />
+  <StrutsActivity path="/updatefaqbyidaction.do" location="3350,850" dimension="238,88" />
+  <StrutsActivity path="/deletefaqaction.do" location="2450,950" dimension="234,88" />
+  <StrutsActivity path="/viewfaqeventslist.do" location="1550,1050" dimension="274,88" />
+  <StrutsActivity path="/gallery.do" location="2150,1050" dimension="75,62" />
+  <StrutsActivity path="/viewgallery.do" location="2750,1050" dimension="97,62" />
+  <StrutsActivity path="/viewgallerybyid.do" location="3050,1050" dimension="117,62" />
+  <StrutsActivity path="/updategallerybyid.do" location="3350,1050" dimension="129,62" />
+  <StrutsActivity path="/galeryhome.do" location="2450,1150" dimension="99,62" />
+  <StrutsActivity path="/upload.do" location="1550,1250" dimension="234,88" />
+  <StrutsActivity path="/addGalery.do" location="1850,1250" dimension="235,88" />
+  <StrutsActivity path="/viewgalleryaction.do" location="2150,1250" dimension="238,88" />
+  <StrutsActivity path="/viewgallerybyidaction.do" location="2750,1250" dimension="258,88" />
+  <StrutsActivity path="/updategallerybyidaction.do" location="3350,1250" dimension="251,88" />
+  <StrutsActivity path="/deletegalleryaction.do" location="2450,1350" dimension="247,88" />
+  <StrutsActivity path="/event.do" location="50,1450" dimension="325,88" />
+  <StrutsActivity path="/viewbranchwiseevents.do" location="1250,1450" dimension="296,88" />
+  <StrutsActivity path="/viewbranchpageforevents.do" location="1850,1450" dimension="169,62" />
+  <StrutsActivity path="/viewevent.do" location="2150,1450" dimension="93,62" />
+  <StrutsActivity path="/viewbranchevent.do" location="2750,1450" dimension="126,62" />
+  <StrutsActivity path="/vieweventbyid.do" location="3050,1450" dimension="113,62" />
+  <StrutsActivity path="/updateeventbyid.do" location="3350,1450" dimension="125,62" />
+  <StrutsActivity path="/eventsbydate.do" location="650,1550" dimension="110,62" />
+  <StrutsActivity path="/addEvents.do" location="50,250" dimension="278,88" />
+  <StrutsActivity path="/vieweventaction.do" location="2450,1550" dimension="240,88" />
+  <StrutsActivity path="/vieweventdetails.do" location="3350,3850" dimension="124,62" />
+  <StrutsActivity path="/viewbrancheventaction.do" location="50,1650" dimension="273,88" />
+  <StrutsActivity path="/vieweventbyidactiondest.do" location="3650,350" dimension="163,62" />
+  <StrutsActivity path="/vieweventbyidaction.do" location="950,1650" dimension="255,88" />
+  <StrutsActivity path="/updateeventbyidaction.do" location="1550,1650" dimension="248,88" />
+  <StrutsActivity path="/deleteeventaction.do" location="1850,1650" dimension="249,88" />
+  <StrutsActivity path="/ViewDateEvents.do" location="2750,1650" dimension="275,88" />
+  <StrutsActivity path="/vieweventsbyleftdate.do" location="3350,1650" dimension="294,88" />
+  <StrutsActivity path="/orgstu.do" location="650,1750" dimension="74,62" />
+  <StrutsActivity path="/viewstu.do" location="2150,1750" dimension="80,62" />
+  <StrutsActivity path="/organisedstudentregistraion.do" location="50,1850" dimension="291,88" />
+  <StrutsActivity path="/vieworgstudents.do" location="950,1850" dimension="294,88" />
+  <StrutsActivity path="/vieweventorgstudents.do" location="1550,1850" dimension="322,88" />
+  <StrutsActivity path="/vieworgeventbranchlist.do" location="2450,1850" dimension="318,88" />
+  <StrutsActivity path="/viewparstu.do" location="3050,1850" dimension="96,62" />
+  <StrutsActivity path="/parstu.do" location="3350,1850" dimension="74,62" />
+  <StrutsActivity path="/viewparstudents.do" location="50,2050" dimension="296,88" />
+  <StrutsActivity path="/participantstudentregistraion.do" location="650,2050" dimension="314,88" />
+  <StrutsActivity path="/viewparbranchlist.do" location="1250,2050" dimension="283,88" />
+  <StrutsActivity path="/login.do" location="1850,2050" dimension="210,88" />
+  <StrutsActivity path="/deletedata.do" location="2150,2050" dimension="239,88" />
+  <StrutsActivity path="/vieweventselstu.do" location="2450,2050" dimension="121,62" />
+  <StrutsActivity path="/vieweventelestu.do" location="2750,2050" dimension="122,62" />
+  <StrutsActivity path="/vieweventselectedstudents.do" location="3050,2050" dimension="324,88" />
+  <StrutsActivity path="/viewoneeventselectedstudents.do" location="50,2250" dimension="339,88" />
+  <StrutsActivity path="/vieweventelectedstudentsaction.do" location="650,2250" dimension="313,88" />
+  <StrutsActivity path="/selectdata.do" location="1250,2250" dimension="294,88" />
+  <StrutsActivity path="/parstueventelegibleaction.do" location="1850,2250" dimension="287,88" />
+  <StrutsActivity path="/viewmyselectedevents.do" location="2450,2250" dimension="265,88" />
+  <StrutsActivity path="/viewmyelectedevents.do" location="3050,2250" dimension="265,88" />
+  <StrutsActivity path="/discussionform.do" location="50,2450" dimension="113,62" />
+  <StrutsActivity path="/addforum.do" location="350,2450" dimension="253,88" />
+  <StrutsActivity path="/viewdiscussionform.do" location="950,2450" dimension="286,88" />
+  <StrutsActivity path="/sendmessages.do" location="1550,2450" dimension="113,62" />
+  <StrutsActivity path="/viewmessages.do" location="1850,2450" dimension="112,62" />
+  <StrutsActivity path="/viewmailidstosendmails.do" location="2150,2450" dimension="225,88" />
+  <StrutsActivity path="/sendmail.do" location="2450,2450" dimension="227,88" />
+  <StrutsActivity path="/viewusermailmessages.do" location="2750,2450" dimension="252,88" />
+  <StrutsActivity path="/addNewParticipantStudent.do" location="3350,2450" dimension="314,88" />
+  <StrutsActivity path="/addFaq.do" location="50,2650" dimension="222,88" />
+  <StrutsActivity path="/logoutaction.do" location="350,2650" dimension="218,88" />
+  <StrutsActivity path="/coaching.do" location="1250,3050" dimension="85,62" />
+  <StrutsActivity path="/viewcoaching.do" location="1550,3050" dimension="107,62" />
+  <StrutsActivity path="/viewcoachingByid.do" location="1850,3050" dimension="127,62" />
+  <StrutsActivity path="/updatecoachingbyid.do" location="2150,3050" dimension="139,62" />
+  <StrutsActivity path="/addcoachingcenterviewstudy.do" location="4550,1950" dimension="235,88" />
+  <StrutsActivity path="/addcoachingcenteraction.do" location="2450,3050" dimension="249,88" />
+  <StrutsActivity path="/viewcoachingcenteraction.do" location="350,3150" dimension="253,88" />
+  <StrutsActivity path="/viewcoachingbyidaction.do" location="3650,1450" dimension="274,88" />
+  <StrutsActivity path="/updatecoachingcenterbyidaction.do" location="3650,1850" dimension="288,88" />
+  <StrutsActivity path="/deletecoachingcenteraction.do" location="3650,2050" dimension="266,88" />
+  <StrutsActivity path="/study.do" location="3650,2850" dimension="70,62" />
+  <StrutsActivity path="/viewstudy.do" location="3650,3050" dimension="92,62" />
+  <StrutsActivity path="/viewstudyByid.do" location="2750,3150" dimension="112,62" />
+  <StrutsActivity path="/updatestudybyid.do" location="3050,3150" dimension="124,62" />
+  <StrutsActivity path="/ViewStudyDetailsByid.do" location="950,750" dimension="145,62" />
+  <StrutsActivity path="/addstudycenteraction.do" location="3350,3150" dimension="232,88" />
+  <StrutsActivity path="/viewstudycenteraction.do" location="50,3250" dimension="235,88" />
+  <StrutsActivity path="/viewstudybyidaction.do" location="950,3250" dimension="257,88" />
+  <StrutsActivity path="/updatestudycenterbyidaction.do" location="1550,3250" dimension="271,88" />
+  <StrutsActivity path="/deletestudyaction.do" location="2150,3250" dimension="244,88" />
+  <StrutsActivity path="/topicheader.do" location="3950,1650" dimension="100,62" />
+  <StrutsActivity path="/viewtopicheader.do" location="3950,2250" dimension="122,62" />
+  <StrutsActivity path="/viewtopicheaderByid.do" location="3950,2450" dimension="142,62" />
+  <StrutsActivity path="/updatetopicheaderbyid.do" location="3950,2650" dimension="154,62" />
+  <StrutsActivity path="/addtopicheaderaction.do" location="3950,2850" dimension="232,88" />
+  <StrutsActivity path="/viewtopicheaderaction.do" location="1250,3450" dimension="235,88" />
+  <StrutsActivity path="/viewtopicheaderbyidaction.do" location="3950,3250" dimension="257,88" />
+  <StrutsActivity path="/updatetopicheaderbyidaction.do" location="3050,3350" dimension="271,88" />
+  <StrutsActivity path="/deletetopicheaderaction.do" location="3650,3350" dimension="244,88" />
+  <StrutsActivity path="/topicname.do" location="1550,3450" dimension="92,62" />
+  <StrutsActivity path="/viewtopicname.do" location="1850,3450" dimension="114,62" />
+  <StrutsActivity path="/viewtopicnameByid.do" location="2150,3450" dimension="134,62" />
+  <StrutsActivity path="/updatetopicnamebyid.do" location="2450,3450" dimension="146,62" />
+  <StrutsActivity path="/addtopicnameaction.do" location="2750,3450" dimension="224,88" />
+  <StrutsActivity path="/viewtopicnameaction.do" location="3950,3450" dimension="227,88" />
+  <StrutsActivity path="/viewtopicnamebyidaction.do" location="50,3550" dimension="249,88" />
+  <StrutsActivity path="/updatetopicnamebyidaction.do" location="350,3550" dimension="263,88" />
+  <StrutsActivity path="/deletetopicnameaction.do" location="950,3550" dimension="236,88" />
+  <StrutsActivity path="/topicfile.do" location="4250,1450" dimension="80,62" />
+  <StrutsActivity path="/viewtopicfile.do" location="4250,1650" dimension="102,62" />
+  <StrutsActivity path="/viewtopicfileByid.do" location="4250,1850" dimension="122,62" />
+  <StrutsActivity path="/updatetopicfilebyid.do" location="4250,2050" dimension="134,62" />
+  <StrutsActivity path="/addtopicfileaction.do" location="4250,2250" dimension="224,88" />
+  <StrutsActivity path="/viewtopicfileaction.do" location="4250,2450" dimension="227,88" />
+  <StrutsActivity path="/viewtopicfilebyidaction.do" location="4250,2650" dimension="249,88" />
+  <StrutsActivity path="/updatetopicfilebyidaction.do" location="4250,2850" dimension="263,88" />
+  <StrutsActivity path="/deletetopicfileaction.do" location="4250,3050" dimension="236,88" />
+  <StrutsActivity path="/placements.do" location="3350,3650" dimension="97,62" />
+  <StrutsActivity path="/viewplacements.do" location="3650,3650" dimension="119,62" />
+  <StrutsActivity path="/viewplacementsByid.do" location="3950,3650" dimension="139,62" />
+  <StrutsActivity path="/updateplacementsyid.do" location="4250,3650" dimension="145,62" />
+  <StrutsActivity path="/ViewPlacementsDetailshome.do" location="4550,1550" dimension="177,62" />
+  <StrutsActivity path="/ViewPlacementDetailsByidHome.do" location="950,950" dimension="193,62" />
+  <StrutsActivity path="/addplacementsaction.do" location="50,3750" dimension="277,88" />
+  <StrutsActivity path="/viewplacementsaction.do" location="650,3750" dimension="280,88" />
+  <StrutsActivity path="/viewplacementsbyidaction.do" location="1250,3750" dimension="216,88" />
+  <StrutsActivity path="/updateplacementsbyidaction.do" location="1550,3750" dimension="252,88" />
+  <StrutsActivity path="/deleteplacementsaction.do" location="2150,3750" dimension="225,88" />
+  <StrutsActivity path="homepage" location="950,1450" dimension="79,49" />
+  <StrutsActivity path="newspage" location="650,1350" dimension="78,49" />
+  <StrutsActivity path="eventhomepage" location="1250,2650" dimension="107,49" />
+  <StrutsActivity path="statuspage" location="1550,2650" dimension="83,49" />
+  <StrutsActivity path="mailspage" location="1850,2650" dimension="76,49" />
+  <StrutsActivity path="participantstudentpage" location="2150,2650" dimension="141,49" />
+  <StrutsActivity path="branchpage" location="650,1250" dimension="86,49" />
+  <StrutsActivity path="viewBrancheshome" location="2750,2650" dimension="121,49" />
+  <StrutsActivity path="viewBranchByidhome" location="3050,2650" dimension="130,49" />
+  <StrutsActivity path="updateBranchbyidhome" location="3350,2650" dimension="142,49" />
+  <StrutsActivity path="/Error.jsp" location="650,2750" dimension="75,49" />
+  <StrutsActivity path="/ViewBranches.jsp" location="950,2750" dimension="117,49" />
+  <StrutsActivity path="/ViewBranchByid.jsp" location="1250,2750" dimension="126,49" />
+  <StrutsActivity path="viewnewshome" location="1550,2750" dimension="102,49" />
+  <StrutsActivity path="viewnewsbyidhome" location="1850,2750" dimension="122,49" />
+  <StrutsActivity path="updatenewsbyidhome" location="2150,2750" dimension="134,49" />
+  <StrutsActivity path="/ViewNews.jsp" location="2450,2750" dimension="99,49" />
+  <StrutsActivity path="/ViewNewsByid.jsp" location="2750,2750" dimension="119,49" />
+  <StrutsActivity path="faqpage" location="3050,2750" dimension="69,49" />
+  <StrutsActivity path="viewfaqhome" location="3350,2750" dimension="93,49" />
+  <StrutsActivity path="viewfaqbyidhome" location="50,2850" dimension="113,49" />
+  <StrutsActivity path="updatefaqbyidhome" location="350,2850" dimension="125,49" />
+  <StrutsActivity path="/ViewFaqByid.jsp" location="650,2850" dimension="111,49" />
+  <StrutsActivity path="gallerypage" location="950,2850" dimension="85,49" />
+  <StrutsActivity path="viewgalleryhome" location="1250,2850" dimension="109,49" />
+  <StrutsActivity path="viewgallerybyidhome" location="1550,2850" dimension="129,49" />
+  <StrutsActivity path="updategallerybyidhome" location="1850,2850" dimension="141,49" />
+  <StrutsActivity path="galerysuccesshome" location="2150,2850" dimension="122,49" />
+  <StrutsActivity path="/ViewGallery.jsp" location="2450,2850" dimension="106,49" />
+  <StrutsActivity path="/ViewGaleryByid.jsp" location="2750,2850" dimension="124,49" />
+  <StrutsActivity path="eventhome" location="3650,1150" dimension="83,49" />
+  <StrutsActivity path="viewbranchpageforevents" location="3050,2850" dimension="155,49" />
+  <StrutsActivity path="vieweventhome" location="3350,2850" dimension="105,49" />
+  <StrutsActivity path="viewbrancheventhome" location="50,2950" dimension="138,49" />
+  <StrutsActivity path="vieweventbyidhome" location="350,2950" dimension="125,49" />
+  <StrutsActivity path="updateeventbyidhome" location="650,2950" dimension="137,49" />
+  <StrutsActivity path="eventsbydatehome" location="950,2950" dimension="122,49" />
+  <StrutsActivity path="vieweventdetailshome" location="3650,3850" dimension="136,49" />
+  <StrutsActivity path="/ViewEvents.jsp" location="1250,2950" dimension="106,49" />
+  <StrutsActivity path="vieweventbyidactiondesthome" location="3950,1250" dimension="175,49" />
+  <StrutsActivity path="orgstuhome" location="1850,2950" dimension="86,49" />
+  <StrutsActivity path="vieworgstuhome" location="2150,2950" dimension="108,49" />
+  <StrutsActivity path="viewparstuhome" location="2450,2950" dimension="108,49" />
+  <StrutsActivity path="parstuhome" location="2750,2950" dimension="86,49" />
+  <StrutsActivity path="vieweventselstuhome" location="3050,2950" dimension="133,49" />
+  <StrutsActivity path="vieweventelestuhome" location="3350,2950" dimension="134,49" />
+  <StrutsActivity path="discussionformhome" location="50,3050" dimension="125,49" />
+  <StrutsActivity path="sendmessageshome" location="350,3050" dimension="125,49" />
+  <StrutsActivity path="viewmessageshome" location="650,3050" dimension="124,49" />
+  <StrutsActivity path="/participantstudent.so" location="950,3050" dimension="136,49" />
+  <StrutsActivity path="coachingpage" location="2750,3050" dimension="95,49" />
+  <StrutsActivity path="viewcoachinghome" location="3050,3050" dimension="119,49" />
+  <StrutsActivity path="viewcoachingByidhome" location="3350,3050" dimension="139,49" />
+  <StrutsActivity path="updatecoachingbyidhome" location="50,3150" dimension="151,49" />
+  <StrutsActivity path="/ViewCoachingCenter.jsp" location="950,3150" dimension="150,49" />
+  <StrutsActivity path="/ViewCoachingCenterByid.jsp" location="3650,2250" dimension="170,49" />
+  <StrutsActivity path="/viewcoachingcenteridaction.do" location="3650,2650" dimension="191,75" />
+  <StrutsActivity path="studypage" location="2450,3250" dimension="80,49" />
+  <StrutsActivity path="viewstudyhome" location="3650,3250" dimension="104,49" />
+  <StrutsActivity path="viewstudyByidhome" location="350,3350" dimension="124,49" />
+  <StrutsActivity path="updatestudybyidhome" location="650,3350" dimension="136,49" />
+  <StrutsActivity path="ViewStudyDetailsByidhome" location="650,1450" dimension="157,49" />
+  <StrutsActivity path="/ViewStudyDetails.jsp" location="2450,3350" dimension="133,49" />
+  <StrutsActivity path="topicheaderpage" location="50,3450" dimension="110,49" />
+  <StrutsActivity path="viewtopicheaderhome" location="350,3450" dimension="134,49" />
+  <StrutsActivity path="viewtopicheaderByidhome" location="650,3450" dimension="154,49" />
+  <StrutsActivity path="updatetopicheaderbyidhome" location="950,3450" dimension="166,49" />
+  <StrutsActivity path="/ViewTopicHeader.jsp" location="3050,3550" dimension="133,49" />
+  <StrutsActivity path="/ViewTopicHeaderByid.jsp" location="3350,3550" dimension="153,49" />
+  <StrutsActivity path="/viewtopicheadercenteraction.do" location="3050,3850" dimension="198,75" />
+  <StrutsActivity path="topicnamepage" location="3650,3550" dimension="102,49" />
+  <StrutsActivity path="viewtopicnamehome" location="1250,3650" dimension="126,49" />
+  <StrutsActivity path="viewtopicnameByidhome" location="1550,3650" dimension="146,49" />
+  <StrutsActivity path="updatetopicnamebyidhome" location="1850,3650" dimension="158,49" />
+  <StrutsActivity path="/ViewTopicNameDetails.jsp" location="2150,3650" dimension="157,49" />
+  <StrutsActivity path="/ViewTopicNameDetailsByid.jsp" location="2450,3650" dimension="177,49" />
+  <StrutsActivity path="topicfilepage" location="4250,3450" dimension="90,49" />
+  <StrutsActivity path="viewtopicfilehome" location="4250,3550" dimension="114,49" />
+  <StrutsActivity path="viewtopicfileByidhome" location="2750,3650" dimension="134,49" />
+  <StrutsActivity path="updatetopicfilebyidhome" location="3050,3650" dimension="146,49" />
+  <StrutsActivity path="/ViewTopicFileDetails.jsp" location="2150,1650" dimension="146,49" />
+  <StrutsActivity path="/ViewTopicFileDetailsByid.jsp" location="2450,1750" dimension="166,49" />
+  <StrutsActivity path="placementspage" location="2450,3750" dimension="107,49" />
+  <StrutsActivity path="viewplacementshome" location="2750,3750" dimension="131,49" />
+  <StrutsActivity path="viewplacementsByidhome" location="3050,3750" dimension="151,49" />
+  <StrutsActivity path="updateplacementsbyidhome" location="2450,3850" dimension="163,49" />
+  <StrutsActivity path="viewplacementsdetailshome" location="4550,1750" dimension="162,49" />
+  <StrutsActivity path="viewplacementdetailsbyidhome" location="950,1550" dimension="177,49" />
+  <StrutsActivity path="/ViewPlacementDetailsByidHome" location="2150,1950" dimension="183,49" />
+  <StrutsActivity path="/ViewPlacementsDetails.jsp" location="2750,3850" dimension="159,49" />
+  <StrutsActivity path="/ViewPlacementDetailsByid.jsp" location="3950,3950" dimension="174,49" />
+  <StrutsActivity path="/ViewStudyDetailsByid.jsp" location="2750,3350" dimension="153,49" />
+  <StrutsActivity path="/ViewEventByid.jsp" location="1550,2950" dimension="121,49" />
+  <StrutsActivity path="/AddBranchForm.jsp" location="650,50" dimension="127,49" />
+  <StrutsActivity path="/CoachingCenterForm.jsp" location="650,150" dimension="152,49" />
+  <StrutsActivity path="/AddEvents.jsp" location="650,250" dimension="103,49" />
+  <StrutsActivity path="/GaleryForm.jsp" location="650,350" dimension="106,49" />
+  <StrutsActivity path="/NewsFeedForm.jsp" location="650,550" dimension="125,49" />
+  <StrutsActivity path="/StudentDetailsForm.jsp" location="650,650" dimension="145,49" />
+  <StrutsActivity path="/PlacementInformationForm.jsp" location="650,750" dimension="180,49" />
+  <StrutsActivity path="/StudyDetailsForm.jsp" location="650,850" dimension="135,49" />
+  <StrutsActivity path="/TopicNameForm.jsp" location="650,950" dimension="127,49" />
+  <StrutsActivity path="/TopicHeaderForm.jsp" location="650,1050" dimension="135,49" />
+  <StrutsActivity path="/TopicFileForm.jsp" location="650,1150" dimension="116,49" />
+  <StrutsActivity path="/LoginForm.jsp" location="650,450" dimension="100,49" />
+  <StrutsActivity path="/branch.so" location="950,1250" dimension="81,49" />
+  <StrutsActivity path="/viewtopicheadercenteraction" location="3950,3050" dimension="235,88" />
+  <StrutsActivity path="/eventhome" location="650,1950" dimension="87,49" />
+  <StrutsActivity path="/ViewPlacementsDetailshome" location="4550,1850" dimension="167,49" />
+  <StrutsActivity path="/ViewCoachingCenterHome.do" />
+  <StrutsActivity path="viewcoachingcenterhome" />
+  <StrutsTransition id="/addcoachingcenterviewstudy.do,success,/coaching.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4667,2038" />
+      <AbsolutePoint location="4667,2995" />
+      <AbsolutePoint location="3487,2995" />
+      <AbsolutePoint location="3487,2714" />
+      <AbsolutePoint location="3226,2714" />
+      <AbsolutePoint location="3226,3221" />
+      <AbsolutePoint location="2312,3221" />
+      <AbsolutePoint location="2312,3008" />
+      <AbsolutePoint location="1292,3008" />
+      <AbsolutePoint location="1292,3050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewgallerybyid.do,null,viewgallerybyidhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3108,1112" />
+      <AbsolutePoint location="3108,1395" />
+      <AbsolutePoint location="4459,1395" />
+      <AbsolutePoint location="4459,2153" />
+      <AbsolutePoint location="1724,2153" />
+      <AbsolutePoint location="1724,2874" />
+      <AbsolutePoint location="1679,2874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/discussionform.do,null,discussionformhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="106,2512" />
+      <AbsolutePoint location="106,2613" />
+      <AbsolutePoint location="5,2613" />
+      <AbsolutePoint location="5,3074" />
+      <AbsolutePoint location="50,3074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/placements.do,null,placementspage,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3362,3712" />
+      <AbsolutePoint location="3362,3814" />
+      <AbsolutePoint location="2503,3814" />
+      <AbsolutePoint location="2503,3799" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addtopicnameaction.do,fail,/topicname.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2750,3529" />
+      <AbsolutePoint location="1608,3529" />
+      <AbsolutePoint location="1608,3512" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewbranchwiseevents.do,success,/viewbranchpageforevents.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1398,1450" />
+      <AbsolutePoint location="1398,1374" />
+      <AbsolutePoint location="1964,1374" />
+      <AbsolutePoint location="1964,1450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewtopicname.do,null,/viewtopicnamebyidaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1913,3450" />
+      <AbsolutePoint location="1913,3365" />
+      <AbsolutePoint location="1161,3365" />
+      <AbsolutePoint location="1161,3514" />
+      <AbsolutePoint location="188,3514" />
+      <AbsolutePoint location="188,3550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewstudybyidaction.do,success,/ViewStudyDetailsByid.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1078,3294" />
+      <AbsolutePoint location="950,750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/participantstudentregistraion.do,success,/viewparbranchlist.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="964,2064" />
+      <AbsolutePoint location="1250,2064" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewstudycenteraction.do,null,/deletestudyaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="204,3250" />
+      <AbsolutePoint location="204,3135" />
+      <AbsolutePoint location="2277,3135" />
+      <AbsolutePoint location="2277,3250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updategallerybyidaction.do,fail,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3601,1302" />
+      <AbsolutePoint location="4844,1302" />
+      <AbsolutePoint location="4844,3841" />
+      <AbsolutePoint location="1494,3841" />
+      <AbsolutePoint location="1494,2708" />
+      <AbsolutePoint location="657,2708" />
+      <AbsolutePoint location="657,2750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewparstudents.do,fail,/viewparstu.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="346,2094" />
+      <AbsolutePoint location="356,2094" />
+      <AbsolutePoint location="356,1834" />
+      <AbsolutePoint location="3098,1834" />
+      <AbsolutePoint location="3098,1850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/topicheader.do,null,/viewtopicheaderaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3950,1681" />
+      <AbsolutePoint location="3940,1681" />
+      <AbsolutePoint location="3940,3548" />
+      <AbsolutePoint location="1367,3548" />
+      <AbsolutePoint location="1367,3538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/placements.do,null,/viewplacementsaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3447,3681" />
+      <AbsolutePoint location="3566,3681" />
+      <AbsolutePoint location="3566,3945" />
+      <AbsolutePoint location="764,3945" />
+      <AbsolutePoint location="764,3838" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updateeventbyidaction.do,success,/viewevent.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1667,1650" />
+      <AbsolutePoint location="1667,1574" />
+      <AbsolutePoint location="2196,1574" />
+      <AbsolutePoint location="2196,1512" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewnewsbyid.do,null,viewnewsbyidhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3105,512" />
+      <AbsolutePoint location="3105,595" />
+      <AbsolutePoint location="4429,595" />
+      <AbsolutePoint location="4429,2183" />
+      <AbsolutePoint location="1694,2183" />
+      <AbsolutePoint location="1694,2774" />
+      <AbsolutePoint location="1850,2774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/upload.do,success,/galeryhome.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1667,1338" />
+      <AbsolutePoint location="1667,1527" />
+      <AbsolutePoint location="3242,1527" />
+      <AbsolutePoint location="3242,1181" />
+      <AbsolutePoint location="2549,1181" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/vieweventaction.do,failure,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2570,1638" />
+      <AbsolutePoint location="2570,1648" />
+      <AbsolutePoint location="635,1648" />
+      <AbsolutePoint location="635,2778" />
+      <AbsolutePoint location="650,2778" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/event.do,null,/viewbranchwiseevents.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="216,1450" />
+      <AbsolutePoint location="216,1333" />
+      <AbsolutePoint location="1376,1333" />
+      <AbsolutePoint location="1376,1450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewtopicfilebyidaction.do,null,/updatetopicfilebyidaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4381,2738" />
+      <AbsolutePoint location="4381,2850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/participantstudent.do,null,participantstudentpage,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2515,50" />
+      <AbsolutePoint location="2515,11" />
+      <AbsolutePoint location="4804,11" />
+      <AbsolutePoint location="4804,2605" />
+      <AbsolutePoint location="2220,2605" />
+      <AbsolutePoint location="2220,2650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/organisedstudentregistraion.do,success,/vieworgeventbranchlist.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="341,1872" />
+      <AbsolutePoint location="800,1872" />
+      <AbsolutePoint location="800,1803" />
+      <AbsolutePoint location="1917,1803" />
+      <AbsolutePoint location="1917,1894" />
+      <AbsolutePoint location="2450,1894" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updatenewsbyid.do,null,updatenewsbyidhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3472,481" />
+      <AbsolutePoint location="4227,481" />
+      <AbsolutePoint location="4227,3014" />
+      <AbsolutePoint location="2336,3014" />
+      <AbsolutePoint location="2336,2774" />
+      <AbsolutePoint location="2284,2774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewmyelectedevents.do,success,/vieweventelestu.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3050,2264" />
+      <AbsolutePoint location="2825,2264" />
+      <AbsolutePoint location="2825,2112" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deletefaqaction.do,fail,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2450,1014" />
+      <AbsolutePoint location="2433,1014" />
+      <AbsolutePoint location="2433,2435" />
+      <AbsolutePoint location="687,2435" />
+      <AbsolutePoint location="687,2750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addBranchAction.do,success,/branch.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1668,250" />
+      <AbsolutePoint location="1668,-85" />
+      <AbsolutePoint location="358,-85" />
+      <AbsolutePoint location="358,1250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updateplacementsyid.do,null,updateplacementsbyidhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4250,3681" />
+      <AbsolutePoint location="4192,3681" />
+      <AbsolutePoint location="4192,4044" />
+      <AbsolutePoint location="2531,4044" />
+      <AbsolutePoint location="2531,3899" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/event.do,null,/vieweventaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="222,1538" />
+      <AbsolutePoint location="222,1545" />
+      <AbsolutePoint location="2570,1545" />
+      <AbsolutePoint location="2570,1550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/galeryhome.do,null,galerysuccesshome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2450,1177" />
+      <AbsolutePoint location="2392,1177" />
+      <AbsolutePoint location="2392,2874" />
+      <AbsolutePoint location="2272,2874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewgallerybyidaction.do,success,/ViewGaleryByid.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2879,1338" />
+      <AbsolutePoint location="2879,1595" />
+      <AbsolutePoint location="3947,1595" />
+      <AbsolutePoint location="3947,2846" />
+      <AbsolutePoint location="2812,2846" />
+      <AbsolutePoint location="2812,2850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewtopicfileaction.do,failure,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4363,2450" />
+      <AbsolutePoint location="4363,2440" />
+      <AbsolutePoint location="705,2440" />
+      <AbsolutePoint location="705,2750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/vieweventbyid.do,null,/updateeventbyidaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3106,1512" />
+      <AbsolutePoint location="3106,1545" />
+      <AbsolutePoint location="2636,1545" />
+      <AbsolutePoint location="2636,1482" />
+      <AbsolutePoint location="2264,1482" />
+      <AbsolutePoint location="2264,1410" />
+      <AbsolutePoint location="1685,1410" />
+      <AbsolutePoint location="1685,1650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/home.do,null,/login.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="101,1312" />
+      <AbsolutePoint location="101,1376" />
+      <AbsolutePoint location="485,1376" />
+      <AbsolutePoint location="485,2222" />
+      <AbsolutePoint location="1955,2222" />
+      <AbsolutePoint location="1955,2138" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updatetopicheaderbyidaction.do,success,/viewstudycenteraction.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3185,3438" />
+      <AbsolutePoint location="3185,3540" />
+      <AbsolutePoint location="167,3540" />
+      <AbsolutePoint location="167,3338" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewcoachingcenteraction.do,success,/ViewCoachingCenter.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="603,3174" />
+      <AbsolutePoint location="950,3174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/topicheader.do,null,topicheaderpage,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4000,1650" />
+      <AbsolutePoint location="4000,1646" />
+      <AbsolutePoint location="38,1646" />
+      <AbsolutePoint location="38,3474" />
+      <AbsolutePoint location="50,3474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewdiscussionform.do,fail,/discussionform.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="950,2494" />
+      <AbsolutePoint location="657,2494" />
+      <AbsolutePoint location="657,2419" />
+      <AbsolutePoint location="106,2419" />
+      <AbsolutePoint location="106,2450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/upload.do,fail,/galeryhome.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1667,1250" />
+      <AbsolutePoint location="1667,1159" />
+      <AbsolutePoint location="2450,1159" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/orgstu.do,null,orgstuhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="724,1787" />
+      <AbsolutePoint location="776,1787" />
+      <AbsolutePoint location="776,1989" />
+      <AbsolutePoint location="1613,1989" />
+      <AbsolutePoint location="1613,2295" />
+      <AbsolutePoint location="1839,2295" />
+      <AbsolutePoint location="1839,2974" />
+      <AbsolutePoint location="1850,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewusermailmessages.do,fail,/viewmessages.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2877,2538" />
+      <AbsolutePoint location="2877,2702" />
+      <AbsolutePoint location="1935,2702" />
+      <AbsolutePoint location="1935,2512" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/faq.do,null,/viewfaqeventslist.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3379,650" />
+      <AbsolutePoint location="3379,643" />
+      <AbsolutePoint location="1813,643" />
+      <AbsolutePoint location="1813,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewtopicheaderByid.do,null,viewtopicheaderByidhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3950,2481" />
+      <AbsolutePoint location="3904,2481" />
+      <AbsolutePoint location="3904,3730" />
+      <AbsolutePoint location="727,3730" />
+      <AbsolutePoint location="727,3499" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/branch.do,null,branchpage,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="426,1274" />
+      <AbsolutePoint location="650,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewcoachingcenteridaction.do,null,/updatecoachingcenterbyidaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3745,2650" />
+      <AbsolutePoint location="3745,2327" />
+      <AbsolutePoint location="3469,2327" />
+      <AbsolutePoint location="3469,1894" />
+      <AbsolutePoint location="3650,1894" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deletetopicheaderaction.do,fail,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3772,3350" />
+      <AbsolutePoint location="3772,2824" />
+      <AbsolutePoint location="710,2824" />
+      <AbsolutePoint location="710,2799" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewmyselectedevents.do,fail,/vieweventselstu.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2488,2250" />
+      <AbsolutePoint location="2488,2112" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewoneeventselectedstudents.do,fail,/vieweventselstu.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="219,2250" />
+      <AbsolutePoint location="219,2240" />
+      <AbsolutePoint location="2510,2240" />
+      <AbsolutePoint location="2510,2112" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updatetopicfilebyidaction.do,fail,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4381,2850" />
+      <AbsolutePoint location="4381,2840" />
+      <AbsolutePoint location="702,2840" />
+      <AbsolutePoint location="702,2799" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewtopicfileByid.do,null,viewtopicfileByidhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4372,1902" />
+      <AbsolutePoint location="4928,1902" />
+      <AbsolutePoint location="4928,2959" />
+      <AbsolutePoint location="3577,2959" />
+      <AbsolutePoint location="3577,3102" />
+      <AbsolutePoint location="2708,3102" />
+      <AbsolutePoint location="2708,3674" />
+      <AbsolutePoint location="2750,3674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewnews.do,null,/viewnewsbyidaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2150,481" />
+      <AbsolutePoint location="1895,481" />
+      <AbsolutePoint location="1895,694" />
+      <AbsolutePoint location="1803,694" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addplacementsaction.do,fail,/placements.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="202,3838" />
+      <AbsolutePoint location="202,3935" />
+      <AbsolutePoint location="3283,3935" />
+      <AbsolutePoint location="3283,3681" />
+      <AbsolutePoint location="3350,3681" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteeventaction.do,success,/viewevent.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1974,1650" />
+      <AbsolutePoint location="1974,1595" />
+      <AbsolutePoint location="2206,1595" />
+      <AbsolutePoint location="2206,1512" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ViewPlacementsDetailshome.do,null,viewplacementsdetailshome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4631,1612" />
+      <AbsolutePoint location="4631,1750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/event.do,null,/viewbrancheventaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="186,1538" />
+      <AbsolutePoint location="186,1650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewmailidstosendmails.do,fail,/sendmessages.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2150,2519" />
+      <AbsolutePoint location="1620,2519" />
+      <AbsolutePoint location="1620,2512" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updateeventbyid.do,null,updateeventbyidhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3475,1481" />
+      <AbsolutePoint location="3647,1481" />
+      <AbsolutePoint location="3647,2445" />
+      <AbsolutePoint location="765,2445" />
+      <AbsolutePoint location="765,2950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/parstueventelegibleaction.do,success,/status.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1993,2338" />
+      <AbsolutePoint location="1993,3417" />
+      <AbsolutePoint location="611,3417" />
+      <AbsolutePoint location="611,205" />
+      <AbsolutePoint location="1890,205" />
+      <AbsolutePoint location="1890,112" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewmailidstosendmails.do,success,/sendmessages.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2220,2538" />
+      <AbsolutePoint location="2220,2545" />
+      <AbsolutePoint location="1606,2545" />
+      <AbsolutePoint location="1606,2512" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewBranchByidAction.do,success,/ViewBranchByid.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3310,294" />
+      <AbsolutePoint location="4200,294" />
+      <AbsolutePoint location="4200,2814" />
+      <AbsolutePoint location="1313,2814" />
+      <AbsolutePoint location="1313,2799" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/event.do,null,/ViewDateEvents.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="224,1450" />
+      <AbsolutePoint location="224,1346" />
+      <AbsolutePoint location="2897,1346" />
+      <AbsolutePoint location="2897,1650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addforum.do,success,/viewdiscussionform.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="603,2516" />
+      <AbsolutePoint location="950,2516" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deletedata.do,fail,/status.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2299,2050" />
+      <AbsolutePoint location="2299,1374" />
+      <AbsolutePoint location="2140,1374" />
+      <AbsolutePoint location="2140,81" />
+      <AbsolutePoint location="1923,81" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewtopicnameaction.do,null,/deletetopicnameaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4139,3538" />
+      <AbsolutePoint location="4139,4098" />
+      <AbsolutePoint location="1068,4098" />
+      <AbsolutePoint location="1068,3638" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addtopicfileaction.do,fail,/topicfile.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4250,2294" />
+      <AbsolutePoint location="4242,2294" />
+      <AbsolutePoint location="4242,1522" />
+      <AbsolutePoint location="4290,1522" />
+      <AbsolutePoint location="4290,1512" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/placements.do,null,/addplacementsaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3447,3691" />
+      <AbsolutePoint location="3538,3691" />
+      <AbsolutePoint location="3538,3987" />
+      <AbsolutePoint location="188,3987" />
+      <AbsolutePoint location="188,3838" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/participantstudentregistraion.do,fail,/viewparbranchlist.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="964,2094" />
+      <AbsolutePoint location="1250,2094" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sendmail.do,success,/viewmailidstosendmails.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2450,2464" />
+      <AbsolutePoint location="2375,2464" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewbranch.do,null,/deleteBranchesAction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3148,81" />
+      <AbsolutePoint location="3325,81" />
+      <AbsolutePoint location="3325,527" />
+      <AbsolutePoint location="1810,527" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/news.do,null,/viewnewsaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1318,1311" />
+      <AbsolutePoint location="1494,1311" />
+      <AbsolutePoint location="1494,-55" />
+      <AbsolutePoint location="2895,-55" />
+      <AbsolutePoint location="2895,550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updateplacementsbyidaction.do,success,/viewplacementsaction.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1676,3838" />
+      <AbsolutePoint location="1676,3876" />
+      <AbsolutePoint location="790,3876" />
+      <AbsolutePoint location="790,3838" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/topicfile.do,null,/viewtopicfileaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4290,1450" />
+      <AbsolutePoint location="4290,1440" />
+      <AbsolutePoint location="4487,1440" />
+      <AbsolutePoint location="4487,2494" />
+      <AbsolutePoint location="4477,2494" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ViewDateEvents.do,failure,/status.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2914,1650" />
+      <AbsolutePoint location="2914,1365" />
+      <AbsolutePoint location="3875,1365" />
+      <AbsolutePoint location="3875,-25" />
+      <AbsolutePoint location="1886,-25" />
+      <AbsolutePoint location="1886,50" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewevent.do,null,vieweventhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2191,1512" />
+      <AbsolutePoint location="2191,1565" />
+      <AbsolutePoint location="1549,1565" />
+      <AbsolutePoint location="1549,2945" />
+      <AbsolutePoint location="3402,2945" />
+      <AbsolutePoint location="3402,2899" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/topicfile.do,null,/addtopicfileaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4330,1511" />
+      <AbsolutePoint location="4484,1511" />
+      <AbsolutePoint location="4484,2294" />
+      <AbsolutePoint location="4474,2294" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addtopicheaderaction.do,fail,/topicheader.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3950,2889" />
+      <AbsolutePoint location="3866,2889" />
+      <AbsolutePoint location="3866,2235" />
+      <AbsolutePoint location="4000,2235" />
+      <AbsolutePoint location="4000,1712" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updatestudycenterbyidaction.do,success,/viewstudy.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1685,3294" />
+      <AbsolutePoint location="3696,3081" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewplacementsbyidaction.do,null,/updateplacementsbyidaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1466,3794" />
+      <AbsolutePoint location="1550,3794" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewgallery.do,null,viewgalleryhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2847,1081" />
+      <AbsolutePoint location="3039,1081" />
+      <AbsolutePoint location="3039,2559" />
+      <AbsolutePoint location="1149,2559" />
+      <AbsolutePoint location="1149,2884" />
+      <AbsolutePoint location="1250,2884" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deletefaqaction.do,success,/viewfaq.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2520,950" />
+      <AbsolutePoint location="2520,812" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewevent.do,null,/vieweventbyidaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2174,1512" />
+      <AbsolutePoint location="2174,1557" />
+      <AbsolutePoint location="1077,1557" />
+      <AbsolutePoint location="1077,1650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/vieweventelestu.do,null,vieweventelestuhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2847,2112" />
+      <AbsolutePoint location="2847,2243" />
+      <AbsolutePoint location="3318,2243" />
+      <AbsolutePoint location="3318,2974" />
+      <AbsolutePoint location="3350,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewtopicheader.do,null,viewtopicheaderhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4072,2281" />
+      <AbsolutePoint location="4082,2281" />
+      <AbsolutePoint location="4082,3447" />
+      <AbsolutePoint location="417,3447" />
+      <AbsolutePoint location="417,3450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteBranchesAction.do,success,/viewbranch.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1802,450" />
+      <AbsolutePoint location="1802,35" />
+      <AbsolutePoint location="3099,35" />
+      <AbsolutePoint location="3099,50" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deletenewsaction.do,success,/viewbranch.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3171,738" />
+      <AbsolutePoint location="3171,795" />
+      <AbsolutePoint location="3785,795" />
+      <AbsolutePoint location="3785,227" />
+      <AbsolutePoint location="3129,227" />
+      <AbsolutePoint location="3129,112" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewtopicnameaction.do,success,/ViewTopicNameDetails.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4059,3538" />
+      <AbsolutePoint location="4059,3548" />
+      <AbsolutePoint location="2228,3548" />
+      <AbsolutePoint location="2228,3650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewbranchwiseevents.do,fail,/viewbranchpageforevents.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1546,1481" />
+      <AbsolutePoint location="1850,1481" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewevent.do,null,/deleteeventaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2150,1463" />
+      <AbsolutePoint location="2064,1463" />
+      <AbsolutePoint location="2064,1650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewplacementsByid.do,null,viewplacementsByidhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4019,3712" />
+      <AbsolutePoint location="4019,3774" />
+      <AbsolutePoint location="3201,3774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/gallery.do,null,gallerypage,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2187,1112" />
+      <AbsolutePoint location="2187,1177" />
+      <AbsolutePoint location="1247,1177" />
+      <AbsolutePoint location="1247,2874" />
+      <AbsolutePoint location="1035,2874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/login.do,fail,/home.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2060,2094" />
+      <AbsolutePoint location="2134,2094" />
+      <AbsolutePoint location="2134,1202" />
+      <AbsolutePoint location="84,1202" />
+      <AbsolutePoint location="84,1250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewfaqbyid.do,null,/updatefaqbyidaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2800,812" />
+      <AbsolutePoint location="2800,965" />
+      <AbsolutePoint location="3447,965" />
+      <AbsolutePoint location="3447,938" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updatecoachingcenterbyidaction.do,success,/viewcoachingcenteraction.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3938,1915" />
+      <AbsolutePoint location="4892,1915" />
+      <AbsolutePoint location="4892,2977" />
+      <AbsolutePoint location="3571,2977" />
+      <AbsolutePoint location="3571,3108" />
+      <AbsolutePoint location="2730,3108" />
+      <AbsolutePoint location="2730,2903" />
+      <AbsolutePoint location="500,2903" />
+      <AbsolutePoint location="500,3150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewplacements.do,null,/viewplacementsbyidaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3709,3712" />
+      <AbsolutePoint location="3709,3735" />
+      <AbsolutePoint location="1368,3735" />
+      <AbsolutePoint location="1368,3750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deletecoachingcenteraction.do,fail,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3916,2099" />
+      <AbsolutePoint location="3933,2099" />
+      <AbsolutePoint location="3933,2809" />
+      <AbsolutePoint location="717,2809" />
+      <AbsolutePoint location="717,2799" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/news.do,null,newspage,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1284,1312" />
+      <AbsolutePoint location="1284,1374" />
+      <AbsolutePoint location="728,1374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/event.do,null,eventhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="212,1494" />
+      <AbsolutePoint location="3650,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewcoachingcenteraction.do,failure,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="482,3150" />
+      <AbsolutePoint location="482,2792" />
+      <AbsolutePoint location="650,2792" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/branch.do,null,/addBranchAction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="418,1250" />
+      <AbsolutePoint location="418,414" />
+      <AbsolutePoint location="1668,414" />
+      <AbsolutePoint location="1668,338" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/faq.do,null,faqpage,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3409,681" />
+      <AbsolutePoint location="4399,681" />
+      <AbsolutePoint location="4399,2213" />
+      <AbsolutePoint location="3336,2213" />
+      <AbsolutePoint location="3336,2774" />
+      <AbsolutePoint location="3119,2774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updatenewsbyidaction.do,fail,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2273,650" />
+      <AbsolutePoint location="2273,5" />
+      <AbsolutePoint location="568,5" />
+      <AbsolutePoint location="568,2383" />
+      <AbsolutePoint location="879,2383" />
+      <AbsolutePoint location="879,2752" />
+      <AbsolutePoint location="725,2752" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deletetopicfileaction.do,success,/viewtopicfileaction.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4486,3099" />
+      <AbsolutePoint location="4535,3099" />
+      <AbsolutePoint location="4535,2489" />
+      <AbsolutePoint location="4477,2489" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sendmessages.do,null,sendmessageshome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1550,2481" />
+      <AbsolutePoint location="1433,2481" />
+      <AbsolutePoint location="1433,3129" />
+      <AbsolutePoint location="412,3129" />
+      <AbsolutePoint location="412,3099" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewstudybyidaction.do,null,/updatestudycenterbyidaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1207,3294" />
+      <AbsolutePoint location="1550,3294" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/news.do,null,/addnewsaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1318,1281" />
+      <AbsolutePoint location="1434,1281" />
+      <AbsolutePoint location="1434,765" />
+      <AbsolutePoint location="2255,765" />
+      <AbsolutePoint location="2255,827" />
+      <AbsolutePoint location="2565,827" />
+      <AbsolutePoint location="2565,638" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/vieweventelectedstudentsaction.do,success,/vieweventelestu.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="963,2294" />
+      <AbsolutePoint location="1167,2294" />
+      <AbsolutePoint location="1167,2389" />
+      <AbsolutePoint location="2789,2389" />
+      <AbsolutePoint location="2789,2112" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewgallery.do,null,/deletegalleryaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2750,1103" />
+      <AbsolutePoint location="2595,1103" />
+      <AbsolutePoint location="2595,1350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deletecoachingcenteraction.do,success,/viewcoachingcenteraction.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3843,2138" />
+      <AbsolutePoint location="3843,3244" />
+      <AbsolutePoint location="477,3244" />
+      <AbsolutePoint location="477,3238" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addfaqaction.do,success,/viewfaqeventslist.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1850,894" />
+      <AbsolutePoint location="1705,894" />
+      <AbsolutePoint location="1705,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewbranch.do,null,viewBrancheshome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3050,111" />
+      <AbsolutePoint location="2718,111" />
+      <AbsolutePoint location="2718,1765" />
+      <AbsolutePoint location="3017,1765" />
+      <AbsolutePoint location="3017,2674" />
+      <AbsolutePoint location="2871,2674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewcoachingcenteraction.do,success,/ViewCoachingCenterHome.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="476,3194" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewfaqsaction.do,failure,/viewfaq.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2380,864" />
+      <AbsolutePoint location="2460,864" />
+      <AbsolutePoint location="2460,812" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/topicheader.do,null,/addtopicheaderaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4050,1681" />
+      <AbsolutePoint location="4192,1681" />
+      <AbsolutePoint location="4192,2894" />
+      <AbsolutePoint location="4182,2894" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewbrancheventaction.do,success,/ViewEvents.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="186,1738" />
+      <AbsolutePoint location="186,1744" />
+      <AbsolutePoint location="2448,1744" />
+      <AbsolutePoint location="2448,3047" />
+      <AbsolutePoint location="1303,3047" />
+      <AbsolutePoint location="1303,2999" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ViewCoachingCenterHome.do,null,viewcoachingcenterhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewgalleryaction.do,success,/ViewGallery.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2388,1294" />
+      <AbsolutePoint location="2443,1294" />
+      <AbsolutePoint location="2443,2874" />
+      <AbsolutePoint location="2450,2874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewtopicfileaction.do,success,/ViewTopicFileDetails.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4363,2450" />
+      <AbsolutePoint location="4363,2430" />
+      <AbsolutePoint location="3530,2430" />
+      <AbsolutePoint location="3530,1740" />
+      <AbsolutePoint location="2223,1740" />
+      <AbsolutePoint location="2223,1699" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewBranchByid.do,null,viewBranchByidhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3468,81" />
+      <AbsolutePoint location="4149,81" />
+      <AbsolutePoint location="4149,2383" />
+      <AbsolutePoint location="3115,2383" />
+      <AbsolutePoint location="3115,2650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/selectdata.do,fail,/status.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,2294" />
+      <AbsolutePoint location="1240,2294" />
+      <AbsolutePoint location="1240,40" />
+      <AbsolutePoint location="1886,40" />
+      <AbsolutePoint location="1886,50" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deletestudyaction.do,fail,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2272,3250" />
+      <AbsolutePoint location="2272,3246" />
+      <AbsolutePoint location="645,3246" />
+      <AbsolutePoint location="645,2795" />
+      <AbsolutePoint location="650,2795" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewplacements.do,null,viewplacementshome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3769,3681" />
+      <AbsolutePoint location="3862,3681" />
+      <AbsolutePoint location="3862,4014" />
+      <AbsolutePoint location="2924,4014" />
+      <AbsolutePoint location="2924,3774" />
+      <AbsolutePoint location="2881,3774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewdiscussionform.do,success,/discussionform.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1093,2538" />
+      <AbsolutePoint location="1093,3119" />
+      <AbsolutePoint location="334,3119" />
+      <AbsolutePoint location="334,2472" />
+      <AbsolutePoint location="163,2472" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewtopicnameByid.do,null,viewtopicnameByidhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2217,3512" />
+      <AbsolutePoint location="2217,3519" />
+      <AbsolutePoint location="1623,3519" />
+      <AbsolutePoint location="1623,3650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addEvents.do,fail,/event.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="189,338" />
+      <AbsolutePoint location="189,1450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/organisedstudentregistraion.do,fail,/vieworgeventbranchlist.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="341,1916" />
+      <AbsolutePoint location="544,1916" />
+      <AbsolutePoint location="544,2235" />
+      <AbsolutePoint location="2609,2235" />
+      <AbsolutePoint location="2609,1938" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deletetopicnameaction.do,fail,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="950,3594" />
+      <AbsolutePoint location="940,3594" />
+      <AbsolutePoint location="940,2774" />
+      <AbsolutePoint location="725,2774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewtopicheader.do,null,/viewtopicheaderbyidaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3950,2281" />
+      <AbsolutePoint location="3852,2281" />
+      <AbsolutePoint location="3852,3292" />
+      <AbsolutePoint location="3950,3292" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updatefaqbyid.do,null,updatefaqbyidhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1550,881" />
+      <AbsolutePoint location="905,881" />
+      <AbsolutePoint location="905,1953" />
+      <AbsolutePoint location="1784,1953" />
+      <AbsolutePoint location="1784,2927" />
+      <AbsolutePoint location="412,2927" />
+      <AbsolutePoint location="412,2899" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updatetopicfilebyid.do,null,updatetopicfilebyidhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4384,2081" />
+      <AbsolutePoint location="4510,2081" />
+      <AbsolutePoint location="4510,2741" />
+      <AbsolutePoint location="2991,2741" />
+      <AbsolutePoint location="2991,3674" />
+      <AbsolutePoint location="3050,3674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addcoachingcenteraction.do,fail,/addcoachingcenterviewstudy.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2574,3094" />
+      <AbsolutePoint location="4667,1994" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewcoachingbyidaction.do,success,/ViewCoachingCenterByid.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3787,1538" />
+      <AbsolutePoint location="3787,1827" />
+      <AbsolutePoint location="3575,1827" />
+      <AbsolutePoint location="3575,2274" />
+      <AbsolutePoint location="3650,2274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewcoachingcenteraction.do,null,/deletecoachingcenteraction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="476,3238" />
+      <AbsolutePoint location="476,3248" />
+      <AbsolutePoint location="3941,3248" />
+      <AbsolutePoint location="3941,2089" />
+      <AbsolutePoint location="3916,2089" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/selectdata.do,success,/status.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1535,2250" />
+      <AbsolutePoint location="1535,1692" />
+      <AbsolutePoint location="1229,1692" />
+      <AbsolutePoint location="1229,176" />
+      <AbsolutePoint location="1886,176" />
+      <AbsolutePoint location="1886,112" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewstudy.do,null,viewstudyhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3702,3112" />
+      <AbsolutePoint location="3702,3250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addstudycenteraction.do,success,/study.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3582,3194" />
+      <AbsolutePoint location="3799,3194" />
+      <AbsolutePoint location="3799,2881" />
+      <AbsolutePoint location="3720,2881" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updatetopicheaderbyid.do,null,updatetopicheaderbyidhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4027,2712" />
+      <AbsolutePoint location="4027,2748" />
+      <AbsolutePoint location="1225,2748" />
+      <AbsolutePoint location="1225,3474" />
+      <AbsolutePoint location="1116,3474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updateBranchbyid.do,null,updateBranchbyidhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2880,181" />
+      <AbsolutePoint location="4119,181" />
+      <AbsolutePoint location="4119,2553" />
+      <AbsolutePoint location="3421,2553" />
+      <AbsolutePoint location="3421,2650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addnewsaction.do,success,/news.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2450,614" />
+      <AbsolutePoint location="2315,614" />
+      <AbsolutePoint location="2315,365" />
+      <AbsolutePoint location="1284,365" />
+      <AbsolutePoint location="1284,1250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ViewStudyDetailsByid.do,null,ViewStudyDetailsByidhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/login.do,success,/status.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1955,2050" />
+      <AbsolutePoint location="1955,2040" />
+      <AbsolutePoint location="1840,2040" />
+      <AbsolutePoint location="1840,81" />
+      <AbsolutePoint location="1850,81" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewfaqbyid.do,null,viewfaqbyidhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2851,765" />
+      <AbsolutePoint location="3325,765" />
+      <AbsolutePoint location="3325,1827" />
+      <AbsolutePoint location="-55,1827" />
+      <AbsolutePoint location="-55,2874" />
+      <AbsolutePoint location="50,2874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewBranchesAction.do,success,/ViewBranches.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2005,338" />
+      <AbsolutePoint location="2005,827" />
+      <AbsolutePoint location="5,827" />
+      <AbsolutePoint location="5,2553" />
+      <AbsolutePoint location="1008,2553" />
+      <AbsolutePoint location="1008,2750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/vieweventorgstudents.do,success,/viewstu.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1872,1930" />
+      <AbsolutePoint location="2204,1930" />
+      <AbsolutePoint location="2204,1812" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteBranchesAction.do,fail,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1550,514" />
+      <AbsolutePoint location="508,514" />
+      <AbsolutePoint location="508,2353" />
+      <AbsolutePoint location="651,2353" />
+      <AbsolutePoint location="651,2750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewnewsaction.do,failure,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2866,638" />
+      <AbsolutePoint location="2866,1227" />
+      <AbsolutePoint location="35,1227" />
+      <AbsolutePoint location="35,2814" />
+      <AbsolutePoint location="655,2814" />
+      <AbsolutePoint location="655,2799" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addBranchAction.do,fail,/branch.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1550,314" />
+      <AbsolutePoint location="388,314" />
+      <AbsolutePoint location="388,1250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/vieweventaction.do,success,/vieweventdetails.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2623,1638" />
+      <AbsolutePoint location="2623,1806" />
+      <AbsolutePoint location="2971,1806" />
+      <AbsolutePoint location="2971,2381" />
+      <AbsolutePoint location="3075,2381" />
+      <AbsolutePoint location="3075,2495" />
+      <AbsolutePoint location="3298,2495" />
+      <AbsolutePoint location="3298,3181" />
+      <AbsolutePoint location="3328,3181" />
+      <AbsolutePoint location="3328,3881" />
+      <AbsolutePoint location="3350,3881" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/eventdate.do,null,eventhomepage,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1596,50" />
+      <AbsolutePoint location="1596,-25" />
+      <AbsolutePoint location="628,-25" />
+      <AbsolutePoint location="628,2674" />
+      <AbsolutePoint location="1250,2674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/parstueventelegibleaction.do,fail,/status.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2137,2294" />
+      <AbsolutePoint location="2147,2294" />
+      <AbsolutePoint location="2147,81" />
+      <AbsolutePoint location="1923,81" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewnews.do,null,viewnewshome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2195,450" />
+      <AbsolutePoint location="2195,141" />
+      <AbsolutePoint location="-85,141" />
+      <AbsolutePoint location="-85,2583" />
+      <AbsolutePoint location="1648,2583" />
+      <AbsolutePoint location="1648,2750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updatenewsbyidaction.do,success,/viewnews.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2195,650" />
+      <AbsolutePoint location="2195,512" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updatefaqbyidaction.do,success,/viewfaq.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3469,938" />
+      <AbsolutePoint location="3469,999" />
+      <AbsolutePoint location="2740,999" />
+      <AbsolutePoint location="2740,781" />
+      <AbsolutePoint location="2531,781" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/study.do,null,/addstudycenteraction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3650,2881" />
+      <AbsolutePoint location="3547,2881" />
+      <AbsolutePoint location="3547,3150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deletetopicfileaction.do,fail,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4368,3050" />
+      <AbsolutePoint location="4368,3040" />
+      <AbsolutePoint location="647,3040" />
+      <AbsolutePoint location="647,2797" />
+      <AbsolutePoint location="650,2797" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/branch.do,null,/viewBranchesAction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="350,1281" />
+      <AbsolutePoint location="224,1281" />
+      <AbsolutePoint location="224,614" />
+      <AbsolutePoint location="1975,614" />
+      <AbsolutePoint location="1975,338" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updateplacementsbyidaction.do,fail,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1676,3750" />
+      <AbsolutePoint location="1676,3745" />
+      <AbsolutePoint location="632,3745" />
+      <AbsolutePoint location="632,2783" />
+      <AbsolutePoint location="650,2783" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/coaching.do,null,coachingpage,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1321,3050" />
+      <AbsolutePoint location="1321,3043" />
+      <AbsolutePoint location="2797,3043" />
+      <AbsolutePoint location="2797,3050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewmessages.do,null,viewmessageshome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1962,2481" />
+      <AbsolutePoint location="2083,2481" />
+      <AbsolutePoint location="2083,3227" />
+      <AbsolutePoint location="712,3227" />
+      <AbsolutePoint location="712,3099" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/coaching.do,null,/viewcoachingcenteraction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,3102" />
+      <AbsolutePoint location="472,3102" />
+      <AbsolutePoint location="472,3150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewtopicname.do,null,viewtopicnamehome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1907,3512" />
+      <AbsolutePoint location="1907,3583" />
+      <AbsolutePoint location="1313,3583" />
+      <AbsolutePoint location="1313,3650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/vieweventbyidaction.do,success,/vieweventbyidactiondest.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1077,1694" />
+      <AbsolutePoint location="3650,350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewparbranchlist.do,fail,/parstu.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1391,2050" />
+      <AbsolutePoint location="1391,1842" />
+      <AbsolutePoint location="3387,1842" />
+      <AbsolutePoint location="3387,1850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteplacementsaction.do,success,/viewplacementsaction.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2279,3838" />
+      <AbsolutePoint location="2279,3913" />
+      <AbsolutePoint location="782,3913" />
+      <AbsolutePoint location="782,3838" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/topicname.do,null,topicnamepage,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1584,3512" />
+      <AbsolutePoint location="1584,3632" />
+      <AbsolutePoint location="3701,3632" />
+      <AbsolutePoint location="3701,3599" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/logoutaction.do,success,/home.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="459,2738" />
+      <AbsolutePoint location="459,2748" />
+      <AbsolutePoint location="47,2748" />
+      <AbsolutePoint location="47,1281" />
+      <AbsolutePoint location="50,1281" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addEvents.do,success,/event.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="159,338" />
+      <AbsolutePoint location="159,1450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewtopicfileaction.do,null,/deletetopicfileaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4477,2498" />
+      <AbsolutePoint location="4516,2498" />
+      <AbsolutePoint location="4516,3094" />
+      <AbsolutePoint location="4486,3094" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/topicname.do,null,/addtopicnameaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1596,3512" />
+      <AbsolutePoint location="1596,3567" />
+      <AbsolutePoint location="2862,3567" />
+      <AbsolutePoint location="2862,3538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewtopicnameaction.do,failure,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4063,3450" />
+      <AbsolutePoint location="4063,3441" />
+      <AbsolutePoint location="638,3441" />
+      <AbsolutePoint location="638,2789" />
+      <AbsolutePoint location="650,2789" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewtopicheadercenteraction.do,null,/deletetopicheaderaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3149,3925" />
+      <AbsolutePoint location="3149,3965" />
+      <AbsolutePoint location="3802,3965" />
+      <AbsolutePoint location="3802,3438" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/event.do,null,/addEvents.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="207,1450" />
+      <AbsolutePoint location="207,338" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updateeventbyidaction.do,fail,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1674,1738" />
+      <AbsolutePoint location="1674,1748" />
+      <AbsolutePoint location="642,1748" />
+      <AbsolutePoint location="642,2776" />
+      <AbsolutePoint location="650,2776" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewfaqeventslist.do,success,/faq.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1687,1050" />
+      <AbsolutePoint location="1687,845" />
+      <AbsolutePoint location="3379,845" />
+      <AbsolutePoint location="3379,712" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewbranchpageforevents.do,null,viewbranchpageforevents,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2019,1481" />
+      <AbsolutePoint location="2140,1481" />
+      <AbsolutePoint location="2140,2714" />
+      <AbsolutePoint location="3127,2714" />
+      <AbsolutePoint location="3127,2850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewmyselectedevents.do,success,/vieweventselstu.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2510,2250" />
+      <AbsolutePoint location="2510,2112" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewfaqeventslist.do,fail,/faq.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1669,1050" />
+      <AbsolutePoint location="1669,745" />
+      <AbsolutePoint location="3361,745" />
+      <AbsolutePoint location="3361,712" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewparbranchlist.do,success,/parstu.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1533,2094" />
+      <AbsolutePoint location="1847,2094" />
+      <AbsolutePoint location="1847,2044" />
+      <AbsolutePoint location="3387,2044" />
+      <AbsolutePoint location="3387,1912" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/vieworgeventbranchlist.do,null,/organisedstudentregistraion.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2450,1864" />
+      <AbsolutePoint location="2026,1864" />
+      <AbsolutePoint location="2026,1765" />
+      <AbsolutePoint location="935,1765" />
+      <AbsolutePoint location="935,1894" />
+      <AbsolutePoint location="341,1894" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addstudycenteraction.do,fail,/study.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3525,3150" />
+      <AbsolutePoint location="3525,2864" />
+      <AbsolutePoint location="3650,2864" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/discussionform.do,null,/viewdiscussionform.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="116,2450" />
+      <AbsolutePoint location="116,2445" />
+      <AbsolutePoint location="747,2445" />
+      <AbsolutePoint location="747,2464" />
+      <AbsolutePoint location="950,2464" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewtopicheaderaction.do,failure,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1367,3450" />
+      <AbsolutePoint location="1367,3444" />
+      <AbsolutePoint location="636,3444" />
+      <AbsolutePoint location="636,2787" />
+      <AbsolutePoint location="650,2787" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addcoachingcenteraction.do,success,/addcoachingcenterviewstudy.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2574,3094" />
+      <AbsolutePoint location="4667,1994" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updatecoachingcenterbyidaction.do,fail,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3919,1938" />
+      <AbsolutePoint location="3919,4116" />
+      <AbsolutePoint location="939,4116" />
+      <AbsolutePoint location="939,2792" />
+      <AbsolutePoint location="725,2792" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updatetopicfilebyidaction.do,success,/viewtopicfileaction.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4513,2894" />
+      <AbsolutePoint location="4527,2894" />
+      <AbsolutePoint location="4527,2494" />
+      <AbsolutePoint location="4477,2494" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/vieweventsbyleftdate.do,success,/eventsbydate.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3497,1738" />
+      <AbsolutePoint location="3497,1746" />
+      <AbsolutePoint location="770,1746" />
+      <AbsolutePoint location="770,1581" />
+      <AbsolutePoint location="760,1581" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/faq.do,null,/addFaq.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3409,699" />
+      <AbsolutePoint location="4245,699" />
+      <AbsolutePoint location="4245,3145" />
+      <AbsolutePoint location="191,3145" />
+      <AbsolutePoint location="191,2738" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updateBranchbyidAction.do,success,/viewbranch.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2596,350" />
+      <AbsolutePoint location="2596,81" />
+      <AbsolutePoint location="3050,81" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewplacementsaction.do,failure,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,3794" />
+      <AbsolutePoint location="630,3794" />
+      <AbsolutePoint location="630,2809" />
+      <AbsolutePoint location="695,2809" />
+      <AbsolutePoint location="695,2799" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updatetopicnamebyid.do,null,updatetopicnamebyidhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2523,3512" />
+      <AbsolutePoint location="2523,3557" />
+      <AbsolutePoint location="1929,3557" />
+      <AbsolutePoint location="1929,3650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/parstu.do,null,parstuhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3392,1912" />
+      <AbsolutePoint location="3392,2437" />
+      <AbsolutePoint location="3262,2437" />
+      <AbsolutePoint location="3262,2915" />
+      <AbsolutePoint location="2793,2915" />
+      <AbsolutePoint location="2793,2950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteeventaction.do,fail,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1974,1738" />
+      <AbsolutePoint location="1974,2035" />
+      <AbsolutePoint location="1097,2035" />
+      <AbsolutePoint location="1097,2389" />
+      <AbsolutePoint location="915,2389" />
+      <AbsolutePoint location="915,2774" />
+      <AbsolutePoint location="725,2774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewfaqbyidaction.do,success,/ViewFaqByid.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3182,938" />
+      <AbsolutePoint location="3182,1953" />
+      <AbsolutePoint location="1814,1953" />
+      <AbsolutePoint location="1814,2613" />
+      <AbsolutePoint location="747,2613" />
+      <AbsolutePoint location="747,2850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewtopicnamebyidaction.do,success,/ViewTopicNameDetailsByid.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,3594" />
+      <AbsolutePoint location="35,3594" />
+      <AbsolutePoint location="35,4014" />
+      <AbsolutePoint location="2672,4014" />
+      <AbsolutePoint location="2672,3674" />
+      <AbsolutePoint location="2627,3674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/discussionform.do,null,/viewmailidstosendmails.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="163,2494" />
+      <AbsolutePoint location="281,2494" />
+      <AbsolutePoint location="281,2741" />
+      <AbsolutePoint location="2324,2741" />
+      <AbsolutePoint location="2324,2538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/faq.do,null,/addfaqaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3397,712" />
+      <AbsolutePoint location="3397,765" />
+      <AbsolutePoint location="3695,765" />
+      <AbsolutePoint location="3695,1127" />
+      <AbsolutePoint location="1991,1127" />
+      <AbsolutePoint location="1991,938" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewtopicheaderbyidaction.do,null,/updatetopicheaderbyidaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3950,3301" />
+      <AbsolutePoint location="3198,3301" />
+      <AbsolutePoint location="3198,3350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewbranch.do,null,/viewcoachingbyidaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3129,50" />
+      <AbsolutePoint location="3129,35" />
+      <AbsolutePoint location="3755,35" />
+      <AbsolutePoint location="3755,1450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewtopicfilebyidaction.do,success,/ViewTopicFileDetailsByid.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4250,2694" />
+      <AbsolutePoint location="4148,2694" />
+      <AbsolutePoint location="4148,2436" />
+      <AbsolutePoint location="3616,2436" />
+      <AbsolutePoint location="3616,1782" />
+      <AbsolutePoint location="2616,1782" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deletegalleryaction.do,success,/viewgallery.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2573,1350" />
+      <AbsolutePoint location="2573,1081" />
+      <AbsolutePoint location="2750,1081" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/vieworgeventbranchlist.do,success,/orgstu.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2623,1938" />
+      <AbsolutePoint location="2623,2245" />
+      <AbsolutePoint location="592,2245" />
+      <AbsolutePoint location="592,1791" />
+      <AbsolutePoint location="650,1791" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewtopicnamebyidaction.do,null,/updatetopicnamebyidaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="299,3594" />
+      <AbsolutePoint location="350,3594" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewplacementsbyidaction.do,success,/ViewPlacementDetailsByidHome.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1358,3794" />
+      <AbsolutePoint location="1046,981" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewtopicfile.do,null,viewtopicfilehome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4352,1681" />
+      <AbsolutePoint location="4862,1681" />
+      <AbsolutePoint location="4862,3574" />
+      <AbsolutePoint location="4364,3574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewmailidstosendmails.do,null,/sendmail.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2336,2538" />
+      <AbsolutePoint location="2336,2665" />
+      <AbsolutePoint location="2573,2665" />
+      <AbsolutePoint location="2573,2538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewstudycenteraction.do,failure,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="285,3294" />
+      <AbsolutePoint location="295,3294" />
+      <AbsolutePoint location="295,2780" />
+      <AbsolutePoint location="650,2780" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/vieworgstudents.do,fail,/viewstu.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1229,1850" />
+      <AbsolutePoint location="1229,1779" />
+      <AbsolutePoint location="1947,1779" />
+      <AbsolutePoint location="1947,1781" />
+      <AbsolutePoint location="2150,1781" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/vieweventorgstudents.do,fail,/viewstu.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1872,1916" />
+      <AbsolutePoint location="2190,1916" />
+      <AbsolutePoint location="2190,1812" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/vieweventselectedstudents.do,success,/vieweventselstu.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3212,2138" />
+      <AbsolutePoint location="3212,2219" />
+      <AbsolutePoint location="2524,2219" />
+      <AbsolutePoint location="2524,2112" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/vieworgeventbranchlist.do,fail,/orgstu.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2599,1938" />
+      <AbsolutePoint location="2599,2205" />
+      <AbsolutePoint location="440,2205" />
+      <AbsolutePoint location="440,1781" />
+      <AbsolutePoint location="650,1781" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewmyelectedevents.do,fail,/vieweventelestu.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3050,2294" />
+      <AbsolutePoint location="2811,2294" />
+      <AbsolutePoint location="2811,2112" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addtopicheaderaction.do,success,/topicheader.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3950,2881" />
+      <AbsolutePoint location="3882,2881" />
+      <AbsolutePoint location="3882,2245" />
+      <AbsolutePoint location="4010,2245" />
+      <AbsolutePoint location="4010,1712" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updatetopicnamebyidaction.do,success,/viewtopicnameaction.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="481,3638" />
+      <AbsolutePoint location="481,3640" />
+      <AbsolutePoint location="4063,3640" />
+      <AbsolutePoint location="4063,3538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewstu.do,null,vieworgstuhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2150,1791" />
+      <AbsolutePoint location="2081,1791" />
+      <AbsolutePoint location="2081,2219" />
+      <AbsolutePoint location="2382,2219" />
+      <AbsolutePoint location="2382,2974" />
+      <AbsolutePoint location="2258,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updatestudybyid.do,null,updatestudybyidhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3050,3203" />
+      <AbsolutePoint location="2939,3203" />
+      <AbsolutePoint location="2939,3406" />
+      <AbsolutePoint location="718,3406" />
+      <AbsolutePoint location="718,3399" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updategallerybyidaction.do,success,/viewgallery.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3494,1250" />
+      <AbsolutePoint location="3494,1021" />
+      <AbsolutePoint location="2800,1021" />
+      <AbsolutePoint location="2800,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deletenewsaction.do,fail,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3292,727" />
+      <AbsolutePoint location="4528,727" />
+      <AbsolutePoint location="4528,2353" />
+      <AbsolutePoint location="819,2353" />
+      <AbsolutePoint location="819,2814" />
+      <AbsolutePoint location="717,2814" />
+      <AbsolutePoint location="717,2799" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewusermailmessages.do,success,/viewmessages.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2883,2538" />
+      <AbsolutePoint location="2883,2732" />
+      <AbsolutePoint location="1929,2732" />
+      <AbsolutePoint location="1929,2512" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/faq.do,null,/viewfaqsaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3397,650" />
+      <AbsolutePoint location="3397,565" />
+      <AbsolutePoint location="2998,565" />
+      <AbsolutePoint location="2998,924" />
+      <AbsolutePoint location="2380,924" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deletetopicheaderaction.do,success,/viewtopicheaderaction.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3772,3438" />
+      <AbsolutePoint location="3772,3644" />
+      <AbsolutePoint location="1367,3644" />
+      <AbsolutePoint location="1367,3538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewparstu.do,null,viewparstuhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3050,1881" />
+      <AbsolutePoint location="2935,1881" />
+      <AbsolutePoint location="2935,2435" />
+      <AbsolutePoint location="2684,2435" />
+      <AbsolutePoint location="2684,2974" />
+      <AbsolutePoint location="2558,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/vieweventelectedstudentsaction.do,fail,/vieweventelestu.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="915,2338" />
+      <AbsolutePoint location="915,2375" />
+      <AbsolutePoint location="2771,2375" />
+      <AbsolutePoint location="2771,2112" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewmailidstosendmails.do,null,/viewusermailmessages.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2342,2538" />
+      <AbsolutePoint location="2342,2545" />
+      <AbsolutePoint location="2864,2545" />
+      <AbsolutePoint location="2864,2538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewtopicheaderbyidaction.do,success,/ViewTopicHeaderByid.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3950,3318" />
+      <AbsolutePoint location="3426,3318" />
+      <AbsolutePoint location="3426,3550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/sendmail.do,fail,/viewmailidstosendmails.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2450,2494" />
+      <AbsolutePoint location="2375,2494" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewtopicfile.do,null,/viewtopicfilebyidaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4250,1681" />
+      <AbsolutePoint location="4234,1681" />
+      <AbsolutePoint location="4234,2640" />
+      <AbsolutePoint location="4374,2640" />
+      <AbsolutePoint location="4374,2650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/study.do,null,studypage,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3650,2890" />
+      <AbsolutePoint location="3616,2890" />
+      <AbsolutePoint location="3616,3274" />
+      <AbsolutePoint location="2530,3274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/home.do,null,homepage,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="84,1312" />
+      <AbsolutePoint location="84,1414" />
+      <AbsolutePoint location="989,1414" />
+      <AbsolutePoint location="989,1450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewnewsbyid.do,null,/updatenewsbyidaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3050,481" />
+      <AbsolutePoint location="2345,481" />
+      <AbsolutePoint location="2345,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/vieweventsbyleftdate.do,fail,/eventsbydate.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3497,1738" />
+      <AbsolutePoint location="3497,1845" />
+      <AbsolutePoint location="733,1845" />
+      <AbsolutePoint location="733,1612" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/mails.do,null,mailspage,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2216,81" />
+      <AbsolutePoint location="2411,81" />
+      <AbsolutePoint location="2411,2583" />
+      <AbsolutePoint location="1888,2583" />
+      <AbsolutePoint location="1888,2650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewbrancheventaction.do,failure,/ViewEvents.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1694" />
+      <AbsolutePoint location="41,1694" />
+      <AbsolutePoint location="41,3009" />
+      <AbsolutePoint location="1303,3009" />
+      <AbsolutePoint location="1303,2999" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewcoachingByid.do,null,viewcoachingByidhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1913,3112" />
+      <AbsolutePoint location="1913,3165" />
+      <AbsolutePoint location="2730,3165" />
+      <AbsolutePoint location="2730,3127" />
+      <AbsolutePoint location="3419,3127" />
+      <AbsolutePoint location="3419,3099" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deletestudyaction.do,success,/viewstudycenteraction.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2272,3250" />
+      <AbsolutePoint location="2272,3248" />
+      <AbsolutePoint location="281,3248" />
+      <AbsolutePoint location="281,3250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteplacementsaction.do,fail,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2262,3750" />
+      <AbsolutePoint location="2262,3740" />
+      <AbsolutePoint location="634,3740" />
+      <AbsolutePoint location="634,2785" />
+      <AbsolutePoint location="650,2785" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deletegalleryaction.do,fail,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2450,1432" />
+      <AbsolutePoint location="606,1432" />
+      <AbsolutePoint location="606,2752" />
+      <AbsolutePoint location="650,2752" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/participantstudent.so,null,/addNewParticipantStudent.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1018,3050" />
+      <AbsolutePoint location="1018,3032" />
+      <AbsolutePoint location="3507,3032" />
+      <AbsolutePoint location="3507,2538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewcoaching.do,null,viewcoachinghome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1550,3081" />
+      <AbsolutePoint location="1520,3081" />
+      <AbsolutePoint location="1520,4076" />
+      <AbsolutePoint location="2981,4076" />
+      <AbsolutePoint location="2981,3074" />
+      <AbsolutePoint location="3050,3074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ViewDateEvents.do,success,/eventsbydate.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2887,1650" />
+      <AbsolutePoint location="2887,1642" />
+      <AbsolutePoint location="705,1642" />
+      <AbsolutePoint location="705,1612" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/gallery.do,null,/viewgalleryaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2205,1112" />
+      <AbsolutePoint location="2205,1250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addtopicfileaction.do,success,/topicfile.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4362,2250" />
+      <AbsolutePoint location="4362,2126" />
+      <AbsolutePoint location="4060,2126" />
+      <AbsolutePoint location="4060,1481" />
+      <AbsolutePoint location="4250,1481" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/home.do,null,/upload.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="67,1250" />
+      <AbsolutePoint location="67,1114" />
+      <AbsolutePoint location="1524,1114" />
+      <AbsolutePoint location="1524,1281" />
+      <AbsolutePoint location="1550,1281" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deletedata.do,success,/status.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2305,2050" />
+      <AbsolutePoint location="2305,1353" />
+      <AbsolutePoint location="1839,1353" />
+      <AbsolutePoint location="1839,81" />
+      <AbsolutePoint location="1850,81" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewstudy.do,null,/viewstudybyidaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3650,3081" />
+      <AbsolutePoint location="3597,3081" />
+      <AbsolutePoint location="3597,3614" />
+      <AbsolutePoint location="1201,3614" />
+      <AbsolutePoint location="1201,3338" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/vieweventbyidactiondest.do,null,vieweventbyidactiondesthome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/home.do,null,/addGalery.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1281" />
+      <AbsolutePoint location="-55,1281" />
+      <AbsolutePoint location="-55,1627" />
+      <AbsolutePoint location="2034,1627" />
+      <AbsolutePoint location="2034,1338" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/coaching.do,null,/addcoachingcenteraction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1322,3112" />
+      <AbsolutePoint location="1322,3119" />
+      <AbsolutePoint location="2450,3119" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/eventsbydate.do,null,eventsbydatehome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,1581" />
+      <AbsolutePoint location="462,1581" />
+      <AbsolutePoint location="462,2389" />
+      <AbsolutePoint location="184,2389" />
+      <AbsolutePoint location="184,2605" />
+      <AbsolutePoint location="723,2605" />
+      <AbsolutePoint location="723,2359" />
+      <AbsolutePoint location="794,2359" />
+      <AbsolutePoint location="794,2974" />
+      <AbsolutePoint location="950,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewfaq.do,null,/viewfaqbyidaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2490,750" />
+      <AbsolutePoint location="2490,695" />
+      <AbsolutePoint location="2926,695" />
+      <AbsolutePoint location="2926,894" />
+      <AbsolutePoint location="3050,894" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewparstudents.do,success,/viewparstu.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="198,2138" />
+      <AbsolutePoint location="198,2218" />
+      <AbsolutePoint location="2066,2218" />
+      <AbsolutePoint location="2066,2034" />
+      <AbsolutePoint location="3098,2034" />
+      <AbsolutePoint location="3098,1912" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/vieweventdetails.do,null,vieweventdetailshome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3474,3874" />
+      <AbsolutePoint location="3650,3874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addplacementsaction.do,success,/placements.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="188,3750" />
+      <AbsolutePoint location="188,3706" />
+      <AbsolutePoint location="3350,3706" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewBranchesAction.do,failure,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,250" />
+      <AbsolutePoint location="1975,227" />
+      <AbsolutePoint location="-25,227" />
+      <AbsolutePoint location="-25,2774" />
+      <AbsolutePoint location="650,2774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/ViewPlacementDetailsByidHome.do,null,viewplacementdetailsbyidhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewstudycenteraction.do,success,/ViewStudyDetails.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="171,3338" />
+      <AbsolutePoint location="171,3346" />
+      <AbsolutePoint location="2516,3346" />
+      <AbsolutePoint location="2516,3350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updatecoachingbyid.do,null,updatecoachingbyidhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2289,3081" />
+      <AbsolutePoint location="2411,3081" />
+      <AbsolutePoint location="2411,4044" />
+      <AbsolutePoint location="5,4044" />
+      <AbsolutePoint location="5,3174" />
+      <AbsolutePoint location="50,3174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewparbranchlist.do,null,/participantstudentregistraion.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1391,2138" />
+      <AbsolutePoint location="1391,2153" />
+      <AbsolutePoint location="807,2153" />
+      <AbsolutePoint location="807,2138" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewfaq.do,null,viewfaqhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2531,803" />
+      <AbsolutePoint location="2629,803" />
+      <AbsolutePoint location="2629,819" />
+      <AbsolutePoint location="4912,819" />
+      <AbsolutePoint location="4912,2774" />
+      <AbsolutePoint location="3443,2774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/vieworgstudents.do,success,/viewstu.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1208,1850" />
+      <AbsolutePoint location="1208,1392" />
+      <AbsolutePoint location="2341,1392" />
+      <AbsolutePoint location="2341,1781" />
+      <AbsolutePoint location="2230,1781" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deletetopicnameaction.do,success,/viewtopicnameaction.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1085,3638" />
+      <AbsolutePoint location="1085,3648" />
+      <AbsolutePoint location="4067,3648" />
+      <AbsolutePoint location="4067,3538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updatestudycenterbyidaction.do,fail,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1685,3250" />
+      <AbsolutePoint location="1685,3248" />
+      <AbsolutePoint location="643,3248" />
+      <AbsolutePoint location="643,2793" />
+      <AbsolutePoint location="650,2793" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewfaqsaction.do,success,/viewfaq.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2380,894" />
+      <AbsolutePoint location="2490,894" />
+      <AbsolutePoint location="2490,812" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/topicfile.do,null,topicfilepage,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4330,1481" />
+      <AbsolutePoint location="4826,1481" />
+      <AbsolutePoint location="4826,3474" />
+      <AbsolutePoint location="4340,3474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewgallery.do,null,/viewgallerybyidaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2798,1112" />
+      <AbsolutePoint location="2798,1250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addfaqaction.do,fail,/viewfaqeventslist.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1961,938" />
+      <AbsolutePoint location="1961,1094" />
+      <AbsolutePoint location="1824,1094" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewfaq.do,null,/deletefaqaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2450,795" />
+      <AbsolutePoint location="1747,795" />
+      <AbsolutePoint location="1747,992" />
+      <AbsolutePoint location="2450,992" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewnewsaction.do,success,/ViewNews.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2983,625" />
+      <AbsolutePoint location="4492,625" />
+      <AbsolutePoint location="4492,2583" />
+      <AbsolutePoint location="2499,2583" />
+      <AbsolutePoint location="2499,2750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updateBranchbyidAction.do,fail,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2703,424" />
+      <AbsolutePoint location="4087,424" />
+      <AbsolutePoint location="4087,2413" />
+      <AbsolutePoint location="665,2413" />
+      <AbsolutePoint location="665,2750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updatetopicheaderbyidaction.do,fail,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3185,3350" />
+      <AbsolutePoint location="3185,3340" />
+      <AbsolutePoint location="641,3340" />
+      <AbsolutePoint location="641,2791" />
+      <AbsolutePoint location="650,2791" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/study.do,null,/viewstudycenteraction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3650,2881" />
+      <AbsolutePoint location="3640,2881" />
+      <AbsolutePoint location="3640,3348" />
+      <AbsolutePoint location="167,3348" />
+      <AbsolutePoint location="167,3338" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addtopicnameaction.do,success,/topicname.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2750,3535" />
+      <AbsolutePoint location="1602,3535" />
+      <AbsolutePoint location="1602,3512" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addnewsaction.do,fail,/news.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2450,584" />
+      <AbsolutePoint location="1314,584" />
+      <AbsolutePoint location="1314,1250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updategallerybyid.do,null,updategallerybyidhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3479,1081" />
+      <AbsolutePoint location="3941,1081" />
+      <AbsolutePoint location="3941,2927" />
+      <AbsolutePoint location="1920,2927" />
+      <AbsolutePoint location="1920,2899" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/vieweventselstu.do,null,vieweventselstuhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2510,2050" />
+      <AbsolutePoint location="2510,1983" />
+      <AbsolutePoint location="3925,1983" />
+      <AbsolutePoint location="3925,2933" />
+      <AbsolutePoint location="3116,2933" />
+      <AbsolutePoint location="3116,2950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewbranchevent.do,null,viewbrancheventhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2813,1450" />
+      <AbsolutePoint location="2813,1440" />
+      <AbsolutePoint location="44,1440" />
+      <AbsolutePoint location="44,2974" />
+      <AbsolutePoint location="50,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewstudyByid.do,null,viewstudyByidhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2862,3181" />
+      <AbsolutePoint location="3017,3181" />
+      <AbsolutePoint location="3017,3965" />
+      <AbsolutePoint location="628,3965" />
+      <AbsolutePoint location="628,3374" />
+      <AbsolutePoint location="474,3374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewbranch.do,null,/viewBranchByidAction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3099,112" />
+      <AbsolutePoint location="3099,250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewnewsbyidaction.do,success,/ViewNewsByid.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1550,684" />
+      <AbsolutePoint location="875,684" />
+      <AbsolutePoint location="875,2013" />
+      <AbsolutePoint location="2730,2013" />
+      <AbsolutePoint location="2730,2774" />
+      <AbsolutePoint location="2750,2774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewgallerybyid.do,null,/updategallerybyidaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3138,1112" />
+      <AbsolutePoint location="3138,1294" />
+      <AbsolutePoint location="3350,1294" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/vieweventselectedstudents.do,fail,/vieweventselstu.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3050,2119" />
+      <AbsolutePoint location="2556,2119" />
+      <AbsolutePoint location="2556,2112" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/discussionform.do,null,/addforum.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="163,2462" />
+      <AbsolutePoint location="350,2462" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/topicname.do,null,/viewtopicnameaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1590,3512" />
+      <AbsolutePoint location="1590,3593" />
+      <AbsolutePoint location="3041,3593" />
+      <AbsolutePoint location="3041,3494" />
+      <AbsolutePoint location="3950,3494" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updatefaqbyidaction.do,fail,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3588,894" />
+      <AbsolutePoint location="4171,894" />
+      <AbsolutePoint location="4171,2836" />
+      <AbsolutePoint location="687,2836" />
+      <AbsolutePoint location="687,2799" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/vieweventbyid.do,null,vieweventbyidhome,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3090,1450" />
+      <AbsolutePoint location="3090,1245" />
+      <AbsolutePoint location="526,1245" />
+      <AbsolutePoint location="526,2371" />
+      <AbsolutePoint location="313,2371" />
+      <AbsolutePoint location="313,2974" />
+      <AbsolutePoint location="350,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewplacementsaction.do,null,/deleteplacementsaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="786,3838" />
+      <AbsolutePoint location="786,3893" />
+      <AbsolutePoint location="2262,3893" />
+      <AbsolutePoint location="2262,3838" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addforum.do,fail,/viewdiscussionform.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="603,2526" />
+      <AbsolutePoint location="950,2526" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewplacementsaction.do,success,/ViewPlacementsDetailshome.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="790,3838" />
+      <AbsolutePoint location="790,3848" />
+      <AbsolutePoint location="4540,3848" />
+      <AbsolutePoint location="4540,1581" />
+      <AbsolutePoint location="4550,1581" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/status.do,null,statuspage,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1923,99" />
+      <AbsolutePoint location="2116,99" />
+      <AbsolutePoint location="2116,1983" />
+      <AbsolutePoint location="1754,1983" />
+      <AbsolutePoint location="1754,2674" />
+      <AbsolutePoint location="1633,2674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewtopicheaderaction.do,success,/ViewTopicHeader.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1371,3538" />
+      <AbsolutePoint location="1371,3574" />
+      <AbsolutePoint location="3050,3574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewbranch.do,null,/deletenewsaction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3069,112" />
+      <AbsolutePoint location="3069,227" />
+      <AbsolutePoint location="2825,227" />
+      <AbsolutePoint location="2825,365" />
+      <AbsolutePoint location="3175,365" />
+      <AbsolutePoint location="3175,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewgalleryaction.do,failure,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2150,1294" />
+      <AbsolutePoint location="2146,1294" />
+      <AbsolutePoint location="2146,2846" />
+      <AbsolutePoint location="665,2846" />
+      <AbsolutePoint location="665,2799" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewBranchByid.do,null,/updateBranchbyidAction.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3409,112" />
+      <AbsolutePoint location="3409,394" />
+      <AbsolutePoint location="2703,394" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewoneeventselectedstudents.do,success,/vieweventselstu.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="219,2338" />
+      <AbsolutePoint location="219,2644" />
+      <AbsolutePoint location="3934,2644" />
+      <AbsolutePoint location="3934,1992" />
+      <AbsolutePoint location="2515,1992" />
+      <AbsolutePoint location="2515,2050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updatetopicnamebyidaction.do,fail,/Error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="350,3594" />
+      <AbsolutePoint location="340,3594" />
+      <AbsolutePoint location="340,2782" />
+      <AbsolutePoint location="650,2782" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+	<data-sources />
+	<form-beans>
+		<form-bean name="BranchFormBean" type="com.buzz.formbean.BranchFormBean" />
+		<form-bean name="GaleryFormbean" type="com.buzz.formbean.GaleryFormbean" />
+		<form-bean name="FileUploadForm" type="com.buzz.formbean.FileUploadForm" />
+		<form-bean name="DiscussionForumFormBean" type="com.buzz.formbean.DiscussionForumFormBean" />
+		<form-bean name="FaqsFormBean" type="com.buzz.formbean.FaqsFormBean" />
+		<form-bean name="LogindetailsFormbean" type="com.buzz.formbean.LogindetailsFormbean" />
+		<form-bean name="MailFormBean" type="com.buzz.formbean.MailFormBean" />
+		<form-bean name="NewsFeedFormBean" type="com.buzz.formbean.NewsFeedFormBean" />
+		<form-bean name="EventFormBean" type="com.buzz.formbean.EventFormBean" />
+		<form-bean name="CoachingCenterFormBean" type="com.buzz.formbean.CoachingCenterFormBean" />
+		<form-bean name="PlacementInformationFormBean"
+			type="com.buzz.formbean.PlacementInformationFormBean" />
+		<form-bean name="TopicFileFormBean" type="com.buzz.formbean.TopicFileFormBean" />
+		<form-bean name="StudyDetailsFormBean" type="com.buzz.formbean.StudyDetailsFormBean" />
+		<form-bean name="StudentDetailsformBean" type="com.buzz.formbean.StudentDetailsformBean" />
+		<form-bean name="TopicHeaderFormBean" type="com.buzz.formbean.TopicHeaderFormBean" />
+		<form-bean name="TopicNameFormBean" type="com.buzz.formbean.TopicNameFormBean" />
+	</form-beans>
+
+
+
+
+
+	<global-exceptions />
+	<global-forwards />
+	<action-mappings>
+
+		<!-- welcomehome -->
+
+		<action path="/welcomehome" forward="welcomehome"></action>
+	<action path="/adminhome" forward="adminhomepage"></action>
+		<action path="/errorhome" forward="errorhome"></action>
+
+		<action path="/home" forward="homepage"></action>
+		<action path="/news" forward="newspage"></action>
+		<action path="/eventdate" forward="eventhomepage"></action>
+		<action path="/status" forward="statuspage"></action>
+
+		<action path="/mails" forward="mailspage"></action>
+
+		<action path="/participantstudent" forward="participantstudentpage"></action>
+
+		<!-- Branches -->
+		<action path="/branch" forward="branchpage"></action>
+		<action path="/viewbranch" forward="viewBrancheshome"></action>
+		<action path="/viewBranchByid" forward="viewBranchByidhome"></action>
+		<action path="/updateBranchbyid" forward="updateBranchbyidhome"></action>
+
+		<action attribute="BranchFormBean" name="BranchFormBean" path="/addBranchAction"
+			scope="request" input="/branch.do" validate="true"
+			type="com.buzz.struts.action.AddBranchAction">
+			<forward name="success" path="/branch.do"></forward>
+			<forward name="fail" path="/branch.do"></forward>
+		</action>
+		<action path="/viewBranchesAction" input="/branch.do" validate="true"
+			type="com.buzz.struts.action.ViewBranchesAction">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewbranch.do" />
+			<forward name="failure" path="/errorhome.do" />
+		</action>
+		<action path="/viewBranchByidAction" input="/viewbranch.do"
+			type="com.buzz.struts.action.ViewBranchByidAction">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewBranchByid.do" />
+		</action>
+		<action attribute="BranchFormBean" name="BranchFormBean"
+			path="/updateBranchbyidAction" input="/viewBranchByid.do" validate="true"
+			type="com.buzz.struts.action.UpdateBranchAction">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewbranch.do" />
+			<forward name="fail" path="/errorhome.do" />
+		</action>
+		<action attribute="BranchFormBean" name="BranchFormBean" input="/viewbranch.do"
+			path="/deleteBranchesAction" type="com.buzz.struts.action.DeleteBranchesAction">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewbranch.do" />
+			<forward name="fail" path="/errorhome.do" />
+		</action>
+
+
+
+		<!-- News -->
+		<action path="/news" forward="newspage"></action>
+		<action path="/viewnews" forward="viewnewshome"></action>
+		<action path="/viewnewsbyid" forward="viewnewsbyidhome"></action>
+		<action path="/updatenewsbyid" forward="updatenewsbyidhome"></action>
+
+		<action attribute="NewsFeedFormBean" name="NewsFeedFormBean"
+			path="/addnewsaction" scope="request" input="/news.do" validate="true"
+			type="com.buzz.struts.action.AddNewsAction">
+			<forward name="success" path="/news.do"></forward>
+			<forward name="fail" path="/news.do"></forward>
+		</action>
+		<action path="/viewnewsaction" input="/news.do" validate="true"
+			type="com.buzz.struts.action.ViewNewsAction">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewnews.do" />
+			<forward name="failure" path="/errorhome.do" />
+		</action>
+		<action path="/viewnewsbyidaction" input="/viewnews.do"
+			type="com.buzz.struts.action.ViewNewsByidAction">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/ViewNewsByid.jsp" />
+		</action>
+		<action attribute="NewsFeedFormBean" name="NewsFeedFormBean"
+			path="/updatenewsbyidaction" input="/viewnewsbyid.do" validate="true"
+			type="com.buzz.struts.action.UpdateNewsAction">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewnews.do" />
+			<forward name="fail" path="/errorhome.do" />
+		</action>
+		<action attribute="NewsFeedFormBean" name="NewsFeedFormBean"
+			input="/viewbranch.do" path="/deletenewsaction" type="com.buzz.struts.action.DeleteNewsAction">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewbranch.do" />
+			<forward name="fail" path="/errorhome.do" />
+		</action>
+
+		<!-- FAQS -->
+
+		<action path="/faq" forward="faqpage"></action>
+		<action path="/viewfaq" forward="viewfaqhome"></action>
+		<action path="/viewfaqbyid" forward="viewfaqbyidhome"></action>
+		<action path="/updatefaqbyid" forward="updatefaqbyidhome"></action>
+
+
+		<action attribute="FaqsFormBean" name="FaqsFormBean" path="/addfaqaction"
+			scope="request" input="/faq.do" validate="true"
+			type="com.buzz.struts.action.AddFaqAction">
+			<forward name="success" path="/viewfaqeventslist.do"></forward>
+			<forward name="fail" path="/viewfaqeventslist.do"></forward>
+		</action>
+		<action path="/viewfaqsaction" input="/faq.do" validate="true"
+			type="com.buzz.struts.action.ViewFaqsAction">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewfaq.do" />
+			<forward name="failure" path="/viewfaq.do" />
+		</action>
+		<action path="/viewfaqbyidaction" input="/viewfaq.do"
+			type="com.buzz.struts.action.ViewFaqByidAction">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/ViewFaqByid.jsp" />
+		</action>
+		<action attribute="FaqsFormBean" name="FaqsFormBean" path="/updatefaqbyidaction"
+			input="/viewfaqbyid.do" validate="true"
+			type="com.buzz.struts.action.UpdateFaqAction">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewfaq.do" />
+			<forward name="fail" path="/errorhome.do" />
+		</action>
+		<action attribute="FaqsFormBean" name="FaqsFormBean" input="/viewfaq.do"
+			path="/deletefaqaction" type="com.buzz.struts.action.DeleteFaqAction">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewfaq.do" />
+			<forward name="fail" path="/errorhome.do" />
+		</action>
+		<action path="/viewfaqeventslist" scope="request" input="/faq.do"
+			validate="true" type="com.buzz.struts.action.ViewFaqEventsListAction">
+			<forward name="success" path="/faq.do"></forward>
+			<forward name="fail" path="/faq.do"></forward>
+		</action>
+
+		<!-- GALLERY -->
+
+		<action path="/gallery" forward="gallerypage" />
+		<action path="/viewgallery" forward="viewgalleryhome"></action>
+		<action path="/viewgallerybyid" forward="viewgallerybyidhome"></action>
+		<action path="/updategallerybyid" forward="updategallerybyidhome"></action>
+		<action path="/galeryhome" forward="galerysuccesshome"></action>
+
+
+
+		<action name="FileUploadForm" path="/upload" scope="request"
+			input="/home.do" validate="true" type="com.buzz.struts.action.FileUploadAction">
+			<forward name="fail" path="/galeryhome.do" />
+			<forward name="success" path="/galeryhome.do" />
+		</action>
+
+		<action attribute="GaleryFormbean" name="GaleryFormbean" path="/addGalery"
+			scope="request" input="/home.do" validate="true"
+			type="com.buzz.struts.action.AddGaleryAction" />
+
+		<action path="/viewgalleryaction" input="/gallery.do" validate="true"
+			type="com.buzz.struts.action.ViewGaleryAction">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/ViewGallery.jsp" />
+			<forward name="failure" path="/errorhome.do" />
+		</action>
+		<action path="/viewgallerybyidaction" input="/viewgallery.do"
+			type="com.buzz.struts.action.ViewGaleryByidAction">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/ViewGaleryByid.jsp" />
+		</action>
+		<action attribute="GaleryFormBean" name="GaleryFormBean"
+			path="/updategallerybyidaction" input="/viewgallerybyid.do" validate="true"
+			type="com.buzz.struts.action.UpdateGaleryAction">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewgallery.do" />
+			<forward name="fail" path="/errorhome.do" />
+		</action>
+		<action attribute="GaleryFormBean" name="GaleryFormBean" input="/viewgallery.do"
+			path="/deletegalleryaction" type="com.buzz.struts.action.DeleteGaleryAction">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewgallery.do" />
+			<forward name="fail" path="/errorhome.do" />
+		</action>
+
+
+		<!--  Events-->
+
+		<action path="/event" forward="eventhome" />
+
+		<action path="/viewbranchwiseevents" input="/event.do"
+			validate="true" scope="request"
+			type="com.buzz.struts.action.ViewBranchWiseEventsAction">
+			<forward name="success" path="/viewbranchpageforevents.do"></forward>
+			<forward name="fail" path="/viewbranchpageforevents.do"></forward>
+		</action>
+		<action path="/viewbranchpageforevents" forward="viewbranchpageforevents" />
+		<action path="/vieweventdetails" forward="vieweventdetailshome" />
+		<action path="/viewbranchevent" forward="viewbrancheventhome" />
+		<action path="/vieweventbyid" forward="vieweventbyidhome" />
+		<action path="/updateeventbyid" forward="updateeventbyidhome" />
+		<action path="/eventsbydate" forward="eventsbydatehome" />
+
+		<action attribute="EventFormBean" name="EventFormBean" path="/addEvents"
+			input="/event.do" validate="true" scope="request"
+			type="com.buzz.struts.action.AddEventsAction">
+			<forward name="success" path="/event.do"></forward>
+			<forward name="fail" path="/event.do"></forward>
+		</action>
+
+
+
+		<action path="/vieweventaction" input="/event.do" validate="true"
+			type="com.buzz.struts.action.ViewEventsAction">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/vieweventdetails.do" />
+			<forward name="failure" path="/errorhome.do" />
+		</action>
+		<action path="/vieweventdetails" forward="vieweventdetailshome" />
+
+		<action path="/viewbrancheventaction" input="/event.do"
+			validate="true" type="com.buzz.struts.action.ViewBranchEventsAction">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/ViewEvents.jsp" />
+			<forward name="failure" path="/ViewEvents.jsp" />
+		</action>
+		<action path="/vieweventbyidactiondest" forward="vieweventbyidactiondesthome" />
+		<action path="/vieweventbyidaction" input="/viewevent.do"
+			type="com.buzz.struts.action.ViewEventbyidAction">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/vieweventbyidactiondest.do" />
+
+		</action>
+		<action attribute="EventFormBean" name="EventFormBean" path="/updateeventbyidaction"
+			input="/vieweventbyid.do" validate="true"
+			type="com.buzz.struts.action.UpdateEventAction">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/vieweventaction.do" />
+			<forward name="fail" path="/errorhome.do" />
+		</action>
+
+
+
+
+		<action attribute="EventFormBean" name="EventFormBean" input="/viewevent.do"
+			path="/deleteeventaction" type="com.buzz.struts.action.DeleteEventsAction">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewevent.do" />
+			<forward name="fail" path="/errorhome.do" />
+		</action>
+
+
+		<action path="/ViewDateEvents" input="/event.do" validate="true"
+			type="com.buzz.struts.action.ViewEventsByDateAction">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/eventsbydate.do" />
+			<forward name="failure" path="/status.do" />
+		</action>
+
+
+		<action path="/vieweventsbyleftdate" scope="request" validate="true"
+			type="com.buzz.struts.action.ViewEventsByLeftDateAction">
+			<forward name="success" path="/eventsbydate.do"></forward>
+			<forward name="fail" path="/eventsbydate.do"></forward>
+		</action>
+		<!-- ORG STUDENTS -->
+
+
+		<action path="/orgstu" forward="orgstuhome"></action>
+		<action path="/viewstu" forward="viewstuhome"></action>
+
+		<action path="/participantstudentregistraion" attribute="StudentDetailsformBean"
+			name="StudentDetailsformBean" input="/vieworgeventbranchlist.do"
+			type="com.buzz.struts.action.AddOrganisedStudentAction">
+			<forward name="success" path="/viewparbranchlist.do"></forward>
+			<forward name="fail" path="/viewparbranchlist.do"></forward>
+
+		</action>
+
+
+		<action path="/viewstudents" type="com.buzz.struts.action.ViewStudentAction">
+			<forward name="success" path="/viewstu.do"></forward>
+			<forward name="fail" path="/viewstu.do"></forward>
+		</action>
+
+		<action path="/vieweventorgstudents"
+			type="com.buzz.struts.action.ViewEventOrganisedStudentAction">
+			<forward name="success" path="/viewstu.do"></forward>
+			<forward name="fail" path="/viewstu.do"></forward>
+		</action>
+
+
+		<action path="/vieworgeventbranchlist" scope="request"
+			validate="true" type="com.buzz.struts.action.ViewOrgEventsBranchesListAction">
+			<forward name="success" path="/orgstu.do"></forward>
+			<forward name="fail" path="/orgstu.do"></forward>
+		</action>
+
+		<action path="/parstu" forward="parstuhome"></action>
+
+		<action path="/viewparbranchlist" scope="request" validate="true"
+			type="com.buzz.struts.action.ViewParBranchesListAction">
+			<forward name="success" path="/parstu.do"></forward>
+			<forward name="fail" path="/parstu.do"></forward>
+		</action>
+
+
+
+		<!-- Login -->
+		<action attribute="LogindetailsFormbean" input="/home.do"
+			validate="true" name="LogindetailsFormbean" path="/login" scope="request"
+			type="com.buzz.struts.action.LoginAction">
+			<forward name="success" path="/status.do"></forward>
+			<forward name="fail" path="/home.do"></forward>
+		</action>
+		<action path="/changepassword" forward="changepasswordhome"></action>
+		<action input="/home.do" validate="true" path="/changepasswordaction"
+			scope="request" type="com.buzz.struts.action.ChangePasswordAction">
+			<forward name="success" path="/changepassword.do"></forward>
+			<forward name="failure" path="/changepassword.do"></forward>
+		</action>
+		<!-- END -->
+
+
+		<!-- Delete Data -->
+		<action validate="true" path="/deletedata" scope="request"
+			type="com.buzz.struts.action.DeleteDataAction">
+			<forward name="success" path="/status.do"></forward>
+			<forward name="fail" path="/status.do"></forward>
+		</action>
+
+
+
+		<!-- Student Event Selection -->
+
+		<action path="/vieweventselstu" forward="vieweventselstuhome"></action>
+		<action path="/vieweventelestu" forward="vieweventelestuhome"></action>
+		<action path="/vieweventselectedstudents"
+			type="com.buzz.struts.action.ViewEventsSelectedStudentsAction">
+			<forward name="success" path="/vieweventselstu.do"></forward>
+			<forward name="fail" path="/vieweventselstu.do"></forward>
+		</action>
+
+
+		<action path="/viewoneeventselectedstudents"
+			type="com.buzz.struts.action.ViewOneEventSelectedStudentsAction">
+			<forward name="success" path="/vieweventselstu.do"></forward>
+			<forward name="fail" path="/vieweventselstu.do"></forward>
+		</action>
+
+		<action path="/vieweventelectedstudentsaction"
+			type="com.buzz.struts.action.ViewEventElectedStudentsAction">
+			<forward name="success" path="/vieweventelestu.do"></forward>
+			<forward name="fail" path="/vieweventelestu.do"></forward>
+		</action>
+
+		<action validate="true" path="/selectdata" scope="request"
+			type="com.buzz.struts.action.StudentEventSelectionAction">
+			<forward name="success" path="/status.do"></forward>
+			<forward name="fail" path="/status.do"></forward>
+		</action>
+
+		<action path="/parstueventelegibleaction"
+			type="com.buzz.struts.action.ParStudEventElegibleAction">
+			<forward name="success" path="/status.do"></forward>
+			<forward name="fail" path="/status.do"></forward>
+		</action>
+
+
+		<action path="/viewmyselectedevents" type="com.buzz.struts.action.ViewMySelectedEvents">
+			<forward name="success" path="/vieweventselstu.do"></forward>
+			<forward name="fail" path="/vieweventselstu.do"></forward>
+		</action>
+
+		<action path="/viewmyelectedevents" type="com.buzz.struts.action.ViewMyEelectedEvents">
+			<forward name="success" path="/vieweventelestu.do"></forward>
+			<forward name="fail" path="/vieweventelestu.do"></forward>
+		</action>
+
+
+
+
+
+		<!-- Disscussion Form -->
+		<action path="/discussionform" forward="discussionformhome"></action>
+
+
+		<action attribute="DiscussionForumFormBean" name="DiscussionForumFormBean"
+			path="/addforum" scope="request" input="/discussionform.do" validate="true"
+			type="com.buzz.struts.action.AddDiscussionForum">
+			<forward name="success" path="/viewdiscussionform.do"></forward>
+			<forward name="fail" path="/viewdiscussionform.do"></forward>
+		</action>
+
+
+		<action path="/viewdiscussionform" scope="request" input="/discussionform.do"
+			validate="true" type="com.buzz.struts.action.ViewDiscussionForumAction">
+			<forward name="success" path="/discussionform.do"></forward>
+			<forward name="fail" path="/discussionform.do"></forward>
+		</action>
+
+
+
+		<!-- Sent Mails -->
+		<action path="/sendmessages" forward="sendmessageshome"></action>
+		<action path="/viewmessages" forward="viewmessageshome"></action>
+		<action path="/viewmailidstosendmails" scope="request"
+			input="/discussionform.do" validate="true"
+			type="com.buzz.struts.action.ViewLoginMails">
+			<forward name="success" path="/sendmessages.do"></forward>
+			<forward name="fail" path="/sendmessages.do"></forward>
+		</action>
+		<action attribute="MailFormBean" name="MailFormBean"
+			input="/viewmailidstosendmails.do" validate="true" path="/sendmail"
+			scope="request" type="com.buzz.struts.action.SendMailAction">
+			<forward name="success" path="/viewmailidstosendmails.do"></forward>
+			<forward name="fail" path="/viewmailidstosendmails.do"></forward>
+		</action>
+
+		<action input="/viewmailidstosendmails.do" validate="true"
+			path="/viewusermailmessages" scope="request"
+			type="com.buzz.struts.action.ViewUserMailsAction">
+			<forward name="success" path="/viewmessages.do"></forward>
+			<forward name="fail" path="/viewmessages.do"></forward>
+		</action>
+
+
+
+		<!-- END -->
+
+
+
+
+
+
+
+		<action attribute="ParticipantStudentDetailsFormBean" name="ParticipantStudentDetailsFormBean"
+			path="/addNewParticipantStudent" input="/participantstudent.so"
+			validate="true" scope="request"
+			type="com.buzz.struts.action.AddNewParticipantStudentAction" />
+
+
+
+		<action attribute="FaqsFormBean" name="FaqsFormBean" input="/faq.do"
+			validate="true" path="/addFaq" scope="request"
+			type="com.buzz.struts.action.AddFaqAction" />
+
+		<!-- Logout -->
+		<action path="/logoutaction" scope="request"
+			type="com.buzz.struts.action.LogoutAction">
+			<forward name="success" path="/home.do"></forward>
+		</action>
+
+
+		<!-- Coaching Center  -->
+
+		<action path="/coaching" forward="coachingpage"></action>
+		<action path="/viewcoaching" forward="viewcoachinghome"></action>
+		<action path="/viewcoachingByid" forward="viewcoachingByidhome"></action>
+		<action path="/updatecoachingbyid" forward="updatecoachingbyidhome"></action>
+		<action path="/ViewCoachingCenterHome" forward="viewcoachingcenterhome"></action>
+		<action path="/addcoachingcenterviewstudy" validate="true"
+			type="com.buzz.struts.action.StudyDetailsView">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/coaching.do" />
+		</action>
+
+
+
+		<action attribute="CoachingCenterFormBean" name="CoachingCenterFormBean"
+			path="/addcoachingcenteraction" scope="request" input="/coaching.do"
+			validate="true" type="com.buzz.struts.action.CoachingCenterAdd">
+			<forward name="success" path="/addcoachingcenterviewstudy.do"></forward>
+			<forward name="fail" path="/addcoachingcenterviewstudy.do"></forward>
+		</action>
+		<action path="/viewcoachingcenteraction" input="/coaching.do"
+			validate="true" type="com.buzz.struts.action.CoachingCentesView">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/ViewCoachingCenterHome.do" />
+			<forward name="failure" path="/errorhome.do" />
+		</action>
+		<action path="/viewcoachingbyidaction" input="/viewbranch.do"
+			type="com.buzz.struts.action.CoachingCenterViewById">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/ViewCoachingCenterByid.jsp" />
+		</action>
+		<action attribute="CoachingCenterFormBean" name="CoachingCenterFormBean"
+			path="/updatecoachingcenterbyidaction" input="/viewcoachingcenteridaction.do"
+			validate="true" type="com.buzz.struts.action.CoachingCenterUpdateByID">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewcoachingcenteraction.do" />
+			<forward name="fail" path="/errorhome.do" />
+		</action>
+		<action attribute="CoachingCenterFormBean" name="CoachingCenterFormBean"
+			input="/viewcoachingcenteraction.do" path="/deletecoachingcenteraction"
+			type="com.buzz.struts.action.CoachingCentersDelete">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewcoachingcenteraction.do" />
+			<forward name="fail" path="/errorhome.do" />
+		</action>
+
+
+
+		<!-- Study details  -->
+
+		<action path="/study" forward="studypage"></action>
+		<action path="/viewstudy" forward="viewstudyhome"></action>
+		<action path="/viewstudyByid" forward="viewstudyByidhome"></action>
+		<action path="/updatestudybyid" forward="updatestudybyidhome"></action>
+		<action path="/ViewStudyDetailsByid" forward="ViewStudyDetailsByidhome"></action>
+
+
+		<action attribute="StudyDetailsFormBean" name="StudyDetailsFormBean"
+			path="/addstudycenteraction" scope="request" input="/study.do"
+			validate="true" type="com.buzz.struts.action.StudyDetailsAdd">
+			<forward name="success" path="/study.do"></forward>
+			<forward name="fail" path="/study.do"></forward>
+		</action>
+		<action path="/viewstudycenteraction" input="/study.do"
+			validate="true" type="com.buzz.struts.action.StudyDetailsView">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/ViewStudyDetails.jsp" />
+			<forward name="failure" path="/errorhome.do" />
+		</action>
+		<action path="/viewstudybyidaction" input="/viewstudy.do"
+			type="com.buzz.struts.action.StudyDetailsViewById">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/ViewStudyDetailsByid.do" />
+
+		</action>
+		<action attribute="StudyDetailsFormBean" name="StudyDetailsFormBean"
+			path="/updatestudycenterbyidaction" input="/viewstudybyidaction.do"
+			validate="true" type="com.buzz.struts.action.StudyDetailsUpdateByID">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewstudy.do" />
+			<forward name="fail" path="/errorhome.do" />
+		</action>
+		<action attribute="StudyDetailsFormBean" name="StudyDetailsFormBean"
+			input="/viewstudycenteraction.do" path="/deletestudyaction"
+			type="com.buzz.struts.action.StudyDetailsDelete">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewstudycenteraction.do" />
+			<forward name="fail" path="/errorhome.do" />
+		</action>
+
+
+		<!-- Topic Header  -->
+
+		<action path="/topicheadadd" forward="topicheadaddhome"></action>
+		<action path="/topicheader" forward="topicheaderpage"></action>
+		<action path="/viewtopicheaderhome" forward="viewtopicheaderhome"></action>
+		<action path="/viewtopicheaderByid" forward="viewtopicheaderByidhome"></action>
+		<action path="/updatetopicheaderbyid" forward="updatetopicheaderbyidhome"></action>
+
+		<action attribute="TopicHeaderFormBean" name="TopicHeaderFormBean"
+			path="/topicheaderupload" scope="request" input="/topicheadadd.do"
+			validate="true" type="com.buzz.struts.action.TopicHeaderAdd">
+			<forward name="success" path="/topicheadadd.do"></forward>
+			<forward name="fail" path="/topicheadadd.do"></forward>
+		</action>
+		<action path="/viewtopicheaderaction" input="/topicheader.do"
+			validate="true" type="com.buzz.struts.action.TopicHeaderView">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewtopicheaderhome.do" />
+			<forward name="failure" path="/errorhome.do" />
+		</action>
+		<action path="/viewtopicheaderbyidaction" input="/viewtopicheader.do"
+			type="com.buzz.struts.action.TopicHeaderViewById">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/ViewTopicHeaderByid.jsp" />
+		</action>
+		<action attribute="TopicHeaderFormBean" name="TopicHeaderFormBean"
+			path="/updatetopicheaderbyidaction" input="/viewtopicheaderbyidaction.do"
+			validate="true" type="com.buzz.struts.action.TopicHeaderUpdateByID">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewstudycenteraction.do" />
+			<forward name="fail" path="/errorhome.do" />
+		</action>
+		<action attribute="TopicHeaderFormBean" name="TopicHeaderFormBean"
+			input="/viewtopicheadercenteraction.do" path="/deletetopicheaderaction"
+			type="com.buzz.struts.action.TopicHeaderDelete">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewtopicheaderaction.do" />
+			<forward name="fail" path="/errorhome.do" />
+		</action>
+
+
+		<!-- Topic Name  -->
+
+
+		<action path="/topicname" forward="topicnamepage"></action>
+		<action path="/viewtopicname" forward="viewtopicnamehome"></action>
+		<action path="/viewtopicnameByid" forward="viewtopicnameByidhome"></action>
+		<action path="/updatetopicnamebyid" forward="updatetopicnamebyidhome"></action>
+		<action path="/addtopicnameviewtopicheaderlisthome" forward="addtopicnameviewtopicheaderlisthome"></action>
+		<action path="/viewtopicnamedetailshome" forward="viewtopicnamedetailshome"></action>
+
+
+
+
+		<action path="/addtopicnameviewtopicheaderlist" input="/topicheader.do"
+			validate="true" type="com.buzz.struts.action.TopicHeaderView">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/addtopicnameviewtopicheaderlisthome.do" />
+			<forward name="failure" path="/errorhome.do" />
+		</action>
+
+
+
+
+
+		<action attribute="TopicNameFormBean" name="TopicNameFormBean"
+			path="/addtopicnameaction" scope="request" input="/topicname.do"
+			validate="true" type="com.buzz.struts.action.TopicNameAdd">
+			<forward name="success" path="/addtopicnameviewtopicheaderlist.do"></forward>
+			<forward name="fail" path="/addtopicnameviewtopicheaderlist.do"></forward>
+		</action>
+		<action path="/viewtopicnameaction" input="/topicname.do"
+			validate="true" type="com.buzz.struts.action.TopicNameView">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewtopicnamedetailshome.do" />
+			<forward name="failure" path="/errorhome.do" />
+		</action>
+		<action path="/viewtopicnamebyidaction" input="/viewtopicname.do"
+			type="com.buzz.struts.action.TopicNameViewById">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/ViewTopicNameDetailsByid.jsp" />
+		</action>
+		<action attribute="TopicNameFormBean" name="TopicNameFormBean"
+			path="/updatetopicnamebyidaction" input="/viewtopicnamebyidaction.do"
+			validate="true" type="com.buzz.struts.action.TopicNameUpdateByID">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewtopicnameaction.do" />
+			<forward name="fail" path="/errorhome.do" />
+		</action>
+		<action attribute="TopicNameFormBean" name="TopicNameFormBean"
+			input="/viewtopicnameaction.do" path="/deletetopicnameaction"
+			type="com.buzz.struts.action.TopicNameDelete">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewtopicnameaction.do" />
+			<forward name="fail" path="/errorhome.do" />
+		</action>
+
+
+
+		<!-- Topic Files  -->
+
+		<action path="/topicfile" forward="topicfilepage"></action>
+		<action path="/viewtopicfileaction" forward="viewtopicfileactionhome"></action>
+		<action path="/viewtopicfileByid" forward="viewtopicfileByidhome"></action>
+		<action path="/updatetopicfilebyid" forward="updatetopicfilebyidhome"></action>
+		<action path="/addtopicfileviewtopicnamelisthome" forward="addtopicfileviewtopicnamelisthome"></action>
+
+
+
+		<action path="/viewfiledataactionbyname" validate="true"
+			type="com.buzz.struts.action.TopicFileViewByName">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewtopicfileaction.do" />
+			<forward name="failure" path="/errorhome.do" />
+		</action>
+
+
+
+
+		<action path="/addtopicfileviewtopicnamelist" input="/topicheader.do"
+			validate="true" type="com.buzz.struts.action.TopicNameViewAddTopicFileAction">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/addtopicfileviewtopicnamelisthome.do" />
+			<forward name="failure" path="/errorhome.do" />
+		</action>
+
+
+
+		<action attribute="TopicFileFormBean" name="TopicFileFormBean"
+			path="/addtopicfileaction" scope="request" input="/topicfile.do"
+			validate="true" type="com.buzz.struts.action.TopicFileAdd">
+			<forward name="success" path="/addtopicfileviewtopicnamelist.do"></forward>
+			<forward name="fail" path="/addtopicfileviewtopicnamelist.do"></forward>
+		</action>
+		<action path="/viewtopicfiles" input="/topicfile.do" validate="true"
+			type="com.buzz.struts.action.TopicFileView">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewtopicfileaction.do" />
+			<forward name="failure" path="/errorhome.do" />
+		</action>
+		<action path="/viewtopicfilebyidaction" input="/viewtopicfile.do"
+			type="com.buzz.struts.action.TopicFileById">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/ViewTopicFileDetailsByid.jsp" />
+		</action>
+		<action attribute="TopicFileFormBean" name="TopicFileFormBean"
+			path="/updatetopicfilebyidaction" input="/viewtopicfilebyidaction.do"
+			validate="true" type="com.buzz.struts.action.TopicFileUpdateByID">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewtopicfileaction.do" />
+			<forward name="fail" path="/errorhome.do" />
+		</action>
+		<action attribute="TopicFileFormBean" name="TopicFileFormBean"
+			input="/viewtopicfileaction.do" path="/deletetopicfileaction"
+			type="com.buzz.struts.action.TopicFileDelete">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewtopicfileaction.do" />
+			<forward name="fail" path="/errorhome.do" />
+		</action>
+
+
+
+		<!-- Placement Information  -->
+
+		<action path="/placements" forward="placementspage"></action>
+		<action path="/viewplacements" forward="viewplacementshome"></action>
+		<action path="/viewplacementsByid" forward="viewplacementsByidhome"></action>
+		<action path="/updateplacementsyid" forward="updateplacementsbyidhome"></action>
+		<action path="/ViewPlacementsDetailshome" forward="viewplacementsdetailshome"></action>
+		<action path="/ViewPlacementDetailsByidHome" forward="viewplacementdetailsbyidhome"></action>
+
+		<action attribute="PlacementInformationFormBean" name="PlacementInformationFormBean"
+			path="/addplacementsaction" scope="request" input="/placements.do"
+			validate="true" type="com.buzz.struts.action.PlacementInformationAdd">
+			<forward name="success" path="/placements.do"></forward>
+			<forward name="fail" path="/placements.do"></forward>
+		</action>
+		<action path="/viewplacementsaction" input="/placements.do"
+			validate="true" type="com.buzz.struts.action.PlacementInformationView">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/ViewPlacementsDetailshome.do" />
+			<forward name="failure" path="/errorhome.do" />
+		</action>
+		<action path="/viewplacementsbyidaction" input="/viewplacements.do"
+			type="com.buzz.struts.action.PlacementInformationViewById">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/ViewPlacementDetailsByidHome.do" />
+		</action>
+		<action attribute="PlacementInformationFormBean" name="PlacementInformationFormBean"
+			path="/updateplacementsbyidaction" input="/viewplacementsbyidaction.do"
+			validate="true" type="com.buzz.struts.action.PlacementInformationUpdateByID">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewplacementsaction.do" />
+			<forward name="fail" path="/errorhome.do" />
+		</action>
+		<action attribute="PlacementInformationFormBean" name="PlacementInformationFormBean"
+			input="/viewplacementsaction.do" path="/deleteplacementsaction"
+			type="com.buzz.struts.action.PlacementInformationDelete">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewplacementsaction.do" />
+			<forward name="fail" path="/errorhome.do" />
+		</action>
+
+		<action path="/viewbixdataactionhome" forward="viewbixdataactionhome"></action>
+
+		<action path="/viewbixdataaction" type="com.buzz.struts.action.ViewBixDataAction">
+			<set-property property="cancellable" value="true" />
+			<forward name="success" path="/viewbixdataactionhome.do" />
+			<forward name="fail" path="/errorhome.do" />
+		</action>
+
+
+
+	</action-mappings>
+	<message-resources parameter="com.buzz.struts.action.ApplicationResources" />
+	<plug-in className="org.apache.struts.tiles.TilesPlugin">
+
+		<set-property property="definitions-config" value="/WEB-INF/tiles-defs.xml" />
+
+	</plug-in>
+	<plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+		<set-property property="pathnames"
+			value="/WEB-INF/validator-rules.xml, /WEB-INF/user-validation.xml" />
+	</plug-in>
+</struts-config>
+
